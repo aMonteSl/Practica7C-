@@ -1,0 +1,5 @@
+<map id="GreenHouse::save" name="GreenHouse::save">
+<area shape="rect" id="node1" title="Load the system." alt="" coords="5,31,147,57"/>
+<area shape="rect" id="node2" href="$classAlarmSensors.html#af51225da8d29225aaaaa65b162870242" title="This method saves the sensors data to a file, one .txt and other one .dat." alt="" coords="195,5,428,32"/>
+<area shape="rect" id="node3" href="$classUsersServer.html#a09ff022e97cf02e1737dc735b43364fe" title="Save Users to File Save users to a file." alt="" coords="204,56,419,83"/>
+</map>

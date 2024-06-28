@@ -1,0 +1,591 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Air\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quality\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{12}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{12}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}AirQualitySensor()}{12}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}$\sim $AirQualitySensor()}{12}{subsubsection.4.1.2.2}%
+\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{13}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}checkAllgood()}{13}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}collectAndPrint()}{14}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}collectData()}{14}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}printData()}{15}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}stringStatus()}{16}{subsubsection.4.1.3.5}%
+\contentsline {subsection}{\numberline {4.1.4}Friends And Related Function Documentation}{17}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}operator$<$$<$}{17}{subsubsection.4.1.4.1}%
+\contentsline {section}{\numberline {4.2}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors Class Reference}{18}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{19}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{19}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}AlarmSensors()}{20}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $AlarmSensors()}{20}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{20}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}addSensor()}{20}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}checkAllgood()}{21}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}checkSensors()}{22}{subsubsection.4.2.3.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.4}deleteSensor()}{22}{subsubsection.4.2.3.4}%
+\contentsline {subsubsection}{\numberline {4.2.3.5}displayAlarmStatus()}{23}{subsubsection.4.2.3.5}%
+\contentsline {subsubsection}{\numberline {4.2.3.6}displayAllSensorsData()}{24}{subsubsection.4.2.3.6}%
+\contentsline {subsubsection}{\numberline {4.2.3.7}loadSensorsData()}{24}{subsubsection.4.2.3.7}%
+\contentsline {subsubsection}{\numberline {4.2.3.8}loadSensorsDataBin()}{25}{subsubsection.4.2.3.8}%
+\contentsline {subsubsection}{\numberline {4.2.3.9}loadSensorsDataTxt()}{25}{subsubsection.4.2.3.9}%
+\contentsline {subsubsection}{\numberline {4.2.3.10}saveSensorsData()}{26}{subsubsection.4.2.3.10}%
+\contentsline {subsubsection}{\numberline {4.2.3.11}saveSensorsDataBin()}{26}{subsubsection.4.2.3.11}%
+\contentsline {subsubsection}{\numberline {4.2.3.12}saveSensorsDataTxt()}{27}{subsubsection.4.2.3.12}%
+\contentsline {subsubsection}{\numberline {4.2.3.13}sensorExists()}{27}{subsubsection.4.2.3.13}%
+\contentsline {subsubsection}{\numberline {4.2.3.14}sensorsIniticialized()}{27}{subsubsection.4.2.3.14}%
+\contentsline {subsubsection}{\numberline {4.2.3.15}turnOffSystem()}{28}{subsubsection.4.2.3.15}%
+\contentsline {subsubsection}{\numberline {4.2.3.16}turnOnOffSystem()}{28}{subsubsection.4.2.3.16}%
+\contentsline {subsubsection}{\numberline {4.2.3.17}turnOnSystem()}{29}{subsubsection.4.2.3.17}%
+\contentsline {subsection}{\numberline {4.2.4}Member Data Documentation}{29}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}fileNameBin}{29}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2}fileNameTxt}{29}{subsubsection.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.4.3}sensors\_}{30}{subsubsection.4.2.4.3}%
+\contentsline {subsubsection}{\numberline {4.2.4.4}status\_}{30}{subsubsection.4.2.4.4}%
+\contentsline {section}{\numberline {4.3}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Close\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{31}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}FileCloseError()}{31}{subsubsection.4.3.2.1}%
+\contentsline {section}{\numberline {4.4}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Corrupt\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{32}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{33}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{33}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}FileCorruptError()}{33}{subsubsection.4.4.2.1}%
+\contentsline {section}{\numberline {4.5}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lock\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{33}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{34}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{35}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}FileLockError()}{35}{subsubsection.4.5.2.1}%
+\contentsline {section}{\numberline {4.6}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Not\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Found\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{35}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{36}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{36}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}FileNotFoundError()}{36}{subsubsection.4.6.2.1}%
+\contentsline {section}{\numberline {4.7}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{37}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{38}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Constructor \& Destructor Documentation}{38}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}FileOpenError()}{38}{subsubsection.4.7.2.1}%
+\contentsline {section}{\numberline {4.8}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Permission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{38}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{39}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Constructor \& Destructor Documentation}{40}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}FilePermissionError()}{40}{subsubsection.4.8.2.1}%
+\contentsline {section}{\numberline {4.9}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Read\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{40}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{41}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Constructor \& Destructor Documentation}{41}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}FileReadError()}{41}{subsubsection.4.9.2.1}%
+\contentsline {section}{\numberline {4.10}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Write\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{42}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{43}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Constructor \& Destructor Documentation}{43}{subsection.4.10.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}FileWriteError()}{43}{subsubsection.4.10.2.1}%
+\contentsline {section}{\numberline {4.11}Green\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}House Class Reference}{43}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{45}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Constructor \& Destructor Documentation}{45}{subsection.4.11.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.1}GreenHouse()}{46}{subsubsection.4.11.2.1}%
+\contentsline {subsubsection}{\numberline {4.11.2.2}$\sim $GreenHouse()}{46}{subsubsection.4.11.2.2}%
+\contentsline {subsection}{\numberline {4.11.3}Member Function Documentation}{46}{subsection.4.11.3}%
+\contentsline {subsubsection}{\numberline {4.11.3.1}mainSystem()}{46}{subsubsection.4.11.3.1}%
+\contentsline {subsubsection}{\numberline {4.11.3.2}manageAdmin()}{48}{subsubsection.4.11.3.2}%
+\contentsline {subsubsection}{\numberline {4.11.3.3}manageCreateUser()}{51}{subsubsection.4.11.3.3}%
+\contentsline {subsubsection}{\numberline {4.11.3.4}manageDeleteUser()}{51}{subsubsection.4.11.3.4}%
+\contentsline {subsubsection}{\numberline {4.11.3.5}manageEmployee()}{52}{subsubsection.4.11.3.5}%
+\contentsline {subsubsection}{\numberline {4.11.3.6}manageGuest()}{54}{subsubsection.4.11.3.6}%
+\contentsline {subsubsection}{\numberline {4.11.3.7}manageLogin()}{55}{subsubsection.4.11.3.7}%
+\contentsline {subsubsection}{\numberline {4.11.3.8}manageUpdateUser()}{57}{subsubsection.4.11.3.8}%
+\contentsline {subsubsection}{\numberline {4.11.3.9}save()}{58}{subsubsection.4.11.3.9}%
+\contentsline {subsubsection}{\numberline {4.11.3.10}searchUser()}{58}{subsubsection.4.11.3.10}%
+\contentsline {subsubsection}{\numberline {4.11.3.11}sleep()}{59}{subsubsection.4.11.3.11}%
+\contentsline {subsubsection}{\numberline {4.11.3.12}startSystem()}{60}{subsubsection.4.11.3.12}%
+\contentsline {subsection}{\numberline {4.11.4}Member Data Documentation}{60}{subsection.4.11.4}%
+\contentsline {subsubsection}{\numberline {4.11.4.1}alarm\_}{60}{subsubsection.4.11.4.1}%
+\contentsline {subsubsection}{\numberline {4.11.4.2}ms\_}{61}{subsubsection.4.11.4.2}%
+\contentsline {subsubsection}{\numberline {4.11.4.3}us\_}{61}{subsubsection.4.11.4.3}%
+\contentsline {section}{\numberline {4.12}Hardware Class Reference}{61}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{63}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Member Enumeration Documentation}{63}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}Types\_Hardware}{63}{subsubsection.4.12.2.1}%
+\contentsline {subsection}{\numberline {4.12.3}Constructor \& Destructor Documentation}{63}{subsection.4.12.3}%
+\contentsline {subsubsection}{\numberline {4.12.3.1}Hardware()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{63}{subsubsection.4.12.3.1}%
+\contentsline {subsubsection}{\numberline {4.12.3.2}Hardware()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{64}{subsubsection.4.12.3.2}%
+\contentsline {subsubsection}{\numberline {4.12.3.3}$\sim $Hardware()}{64}{subsubsection.4.12.3.3}%
+\contentsline {subsection}{\numberline {4.12.4}Member Function Documentation}{64}{subsection.4.12.4}%
+\contentsline {subsubsection}{\numberline {4.12.4.1}askInput()}{64}{subsubsection.4.12.4.1}%
+\contentsline {subsubsection}{\numberline {4.12.4.2}displayOutput()}{65}{subsubsection.4.12.4.2}%
+\contentsline {subsubsection}{\numberline {4.12.4.3}getType()}{65}{subsubsection.4.12.4.3}%
+\contentsline {subsubsection}{\numberline {4.12.4.4}isActive()}{66}{subsubsection.4.12.4.4}%
+\contentsline {subsubsection}{\numberline {4.12.4.5}setType()}{66}{subsubsection.4.12.4.5}%
+\contentsline {subsubsection}{\numberline {4.12.4.6}stringStatus()}{67}{subsubsection.4.12.4.6}%
+\contentsline {subsubsection}{\numberline {4.12.4.7}stringToType()}{68}{subsubsection.4.12.4.7}%
+\contentsline {subsubsection}{\numberline {4.12.4.8}turnOff()}{69}{subsubsection.4.12.4.8}%
+\contentsline {subsubsection}{\numberline {4.12.4.9}turnOn()}{69}{subsubsection.4.12.4.9}%
+\contentsline {subsubsection}{\numberline {4.12.4.10}typeToString()}{70}{subsubsection.4.12.4.10}%
+\contentsline {subsection}{\numberline {4.12.5}Member Data Documentation}{70}{subsection.4.12.5}%
+\contentsline {subsubsection}{\numberline {4.12.5.1}active\_}{70}{subsubsection.4.12.5.1}%
+\contentsline {subsubsection}{\numberline {4.12.5.2}type\_}{71}{subsubsection.4.12.5.2}%
+\contentsline {section}{\numberline {4.13}Hydrometer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{71}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{73}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Constructor \& Destructor Documentation}{73}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}HydrometerSensor()}{73}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}$\sim $HydrometerSensor()}{73}{subsubsection.4.13.2.2}%
+\contentsline {subsection}{\numberline {4.13.3}Member Function Documentation}{74}{subsection.4.13.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.1}checkAllgood()}{74}{subsubsection.4.13.3.1}%
+\contentsline {subsubsection}{\numberline {4.13.3.2}collectAndPrint()}{75}{subsubsection.4.13.3.2}%
+\contentsline {subsubsection}{\numberline {4.13.3.3}collectData()}{75}{subsubsection.4.13.3.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.4}printData()}{76}{subsubsection.4.13.3.4}%
+\contentsline {subsubsection}{\numberline {4.13.3.5}stringStatus()}{77}{subsubsection.4.13.3.5}%
+\contentsline {subsection}{\numberline {4.13.4}Friends And Related Function Documentation}{78}{subsection.4.13.4}%
+\contentsline {subsubsection}{\numberline {4.13.4.1}operator$<$$<$}{78}{subsubsection.4.13.4.1}%
+\contentsline {section}{\numberline {4.14}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware Class Reference}{79}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{81}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Constructor \& Destructor Documentation}{81}{subsection.4.14.2}%
+\contentsline {subsubsection}{\numberline {4.14.2.1}KeyboardHardware()}{81}{subsubsection.4.14.2.1}%
+\contentsline {subsubsection}{\numberline {4.14.2.2}$\sim $KeyboardHardware()}{81}{subsubsection.4.14.2.2}%
+\contentsline {subsection}{\numberline {4.14.3}Member Function Documentation}{82}{subsection.4.14.3}%
+\contentsline {subsubsection}{\numberline {4.14.3.1}askInput()}{82}{subsubsection.4.14.3.1}%
+\contentsline {subsubsection}{\numberline {4.14.3.2}displayOutput()}{83}{subsubsection.4.14.3.2}%
+\contentsline {subsubsection}{\numberline {4.14.3.3}stringInput()}{83}{subsubsection.4.14.3.3}%
+\contentsline {subsection}{\numberline {4.14.4}Member Data Documentation}{84}{subsection.4.14.4}%
+\contentsline {subsubsection}{\numberline {4.14.4.1}data\_}{84}{subsubsection.4.14.4.1}%
+\contentsline {subsubsection}{\numberline {4.14.4.2}stringData\_}{84}{subsubsection.4.14.4.2}%
+\contentsline {section}{\numberline {4.15}Light\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{84}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{87}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Constructor \& Destructor Documentation}{87}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}LightSensor()}{87}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}$\sim $LightSensor()}{87}{subsubsection.4.15.2.2}%
+\contentsline {subsection}{\numberline {4.15.3}Member Function Documentation}{88}{subsection.4.15.3}%
+\contentsline {subsubsection}{\numberline {4.15.3.1}checkAllgood()}{88}{subsubsection.4.15.3.1}%
+\contentsline {subsubsection}{\numberline {4.15.3.2}collectAndPrint()}{89}{subsubsection.4.15.3.2}%
+\contentsline {subsubsection}{\numberline {4.15.3.3}collectData()}{89}{subsubsection.4.15.3.3}%
+\contentsline {subsubsection}{\numberline {4.15.3.4}printData()}{90}{subsubsection.4.15.3.4}%
+\contentsline {subsubsection}{\numberline {4.15.3.5}stringStatus()}{91}{subsubsection.4.15.3.5}%
+\contentsline {subsection}{\numberline {4.15.4}Friends And Related Function Documentation}{92}{subsection.4.15.4}%
+\contentsline {subsubsection}{\numberline {4.15.4.1}operator$<$$<$}{92}{subsubsection.4.15.4.1}%
+\contentsline {section}{\numberline {4.16}Monitoring\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System Class Reference}{92}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{96}{subsection.4.16.1}%
+\contentsline {subsection}{\numberline {4.16.2}Constructor \& Destructor Documentation}{96}{subsection.4.16.2}%
+\contentsline {subsubsection}{\numberline {4.16.2.1}MonitoringSystem()}{96}{subsubsection.4.16.2.1}%
+\contentsline {subsubsection}{\numberline {4.16.2.2}$\sim $MonitoringSystem()}{96}{subsubsection.4.16.2.2}%
+\contentsline {subsection}{\numberline {4.16.3}Member Function Documentation}{97}{subsection.4.16.3}%
+\contentsline {subsubsection}{\numberline {4.16.3.1}askEmail()}{97}{subsubsection.4.16.3.1}%
+\contentsline {subsubsection}{\numberline {4.16.3.2}askIdAlarm()}{98}{subsubsection.4.16.3.2}%
+\contentsline {subsubsection}{\numberline {4.16.3.3}askInputInt()}{98}{subsubsection.4.16.3.3}%
+\contentsline {subsubsection}{\numberline {4.16.3.4}askMainUser()}{99}{subsubsection.4.16.3.4}%
+\contentsline {subsubsection}{\numberline {4.16.3.5}askName()}{100}{subsubsection.4.16.3.5}%
+\contentsline {subsubsection}{\numberline {4.16.3.6}askNIF()}{101}{subsubsection.4.16.3.6}%
+\contentsline {subsubsection}{\numberline {4.16.3.7}askPassword()}{102}{subsubsection.4.16.3.7}%
+\contentsline {subsubsection}{\numberline {4.16.3.8}askPrivileges()}{102}{subsubsection.4.16.3.8}%
+\contentsline {subsubsection}{\numberline {4.16.3.9}askTypeAlarm()}{103}{subsubsection.4.16.3.9}%
+\contentsline {subsubsection}{\numberline {4.16.3.10}createAlarmScreen()}{104}{subsubsection.4.16.3.10}%
+\contentsline {subsubsection}{\numberline {4.16.3.11}createUserScreen()}{105}{subsubsection.4.16.3.11}%
+\contentsline {subsubsection}{\numberline {4.16.3.12}deleteAlarmScreen()}{105}{subsubsection.4.16.3.12}%
+\contentsline {subsubsection}{\numberline {4.16.3.13}deleteUserScreen()}{106}{subsubsection.4.16.3.13}%
+\contentsline {subsubsection}{\numberline {4.16.3.14}displayAlarmsScreen()}{107}{subsubsection.4.16.3.14}%
+\contentsline {subsubsection}{\numberline {4.16.3.15}displayErrorScreen()}{107}{subsubsection.4.16.3.15}%
+\contentsline {subsubsection}{\numberline {4.16.3.16}displaySensorsScreen()}{108}{subsubsection.4.16.3.16}%
+\contentsline {subsubsection}{\numberline {4.16.3.17}displayUsersScreen()}{109}{subsubsection.4.16.3.17}%
+\contentsline {subsubsection}{\numberline {4.16.3.18}exitScreen()}{110}{subsubsection.4.16.3.18}%
+\contentsline {subsubsection}{\numberline {4.16.3.19}getEmailSelectedUser()}{110}{subsubsection.4.16.3.19}%
+\contentsline {subsubsection}{\numberline {4.16.3.20}getIdAlarm()}{111}{subsubsection.4.16.3.20}%
+\contentsline {subsubsection}{\numberline {4.16.3.21}getIdSelectedAlarm()}{112}{subsubsection.4.16.3.21}%
+\contentsline {subsubsection}{\numberline {4.16.3.22}getName()}{112}{subsubsection.4.16.3.22}%
+\contentsline {subsubsection}{\numberline {4.16.3.23}getNameSelectedUser()}{113}{subsubsection.4.16.3.23}%
+\contentsline {subsubsection}{\numberline {4.16.3.24}getNIF()}{113}{subsubsection.4.16.3.24}%
+\contentsline {subsubsection}{\numberline {4.16.3.25}getNIFSelectedUser()}{114}{subsubsection.4.16.3.25}%
+\contentsline {subsubsection}{\numberline {4.16.3.26}getPassword()}{114}{subsubsection.4.16.3.26}%
+\contentsline {subsubsection}{\numberline {4.16.3.27}getPasswordSelectedUser()}{115}{subsubsection.4.16.3.27}%
+\contentsline {subsubsection}{\numberline {4.16.3.28}getPrivilegesSelectedUser()}{115}{subsubsection.4.16.3.28}%
+\contentsline {subsubsection}{\numberline {4.16.3.29}getSelection()}{116}{subsubsection.4.16.3.29}%
+\contentsline {subsubsection}{\numberline {4.16.3.30}getTypeAlarm()}{116}{subsubsection.4.16.3.30}%
+\contentsline {subsubsection}{\numberline {4.16.3.31}initialScreen()}{117}{subsubsection.4.16.3.31}%
+\contentsline {subsubsection}{\numberline {4.16.3.32}inputCorrect()}{117}{subsubsection.4.16.3.32}%
+\contentsline {subsubsection}{\numberline {4.16.3.33}loginScreen()}{118}{subsubsection.4.16.3.33}%
+\contentsline {subsubsection}{\numberline {4.16.3.34}mainWindowAdmin()}{119}{subsubsection.4.16.3.34}%
+\contentsline {subsubsection}{\numberline {4.16.3.35}mainWindowEmployee()}{120}{subsubsection.4.16.3.35}%
+\contentsline {subsubsection}{\numberline {4.16.3.36}mainWindowGuest()}{120}{subsubsection.4.16.3.36}%
+\contentsline {subsubsection}{\numberline {4.16.3.37}saveAlarmScreen()}{121}{subsubsection.4.16.3.37}%
+\contentsline {subsubsection}{\numberline {4.16.3.38}selectUser()}{122}{subsubsection.4.16.3.38}%
+\contentsline {subsubsection}{\numberline {4.16.3.39}shortSelectUser()}{122}{subsubsection.4.16.3.39}%
+\contentsline {subsubsection}{\numberline {4.16.3.40}turnOnOffSystemScreen()}{123}{subsubsection.4.16.3.40}%
+\contentsline {subsubsection}{\numberline {4.16.3.41}updateUserScreen()}{124}{subsubsection.4.16.3.41}%
+\contentsline {subsection}{\numberline {4.16.4}Member Data Documentation}{124}{subsection.4.16.4}%
+\contentsline {subsubsection}{\numberline {4.16.4.1}emailSelectedUser\_}{125}{subsubsection.4.16.4.1}%
+\contentsline {subsubsection}{\numberline {4.16.4.2}idAlarm\_}{125}{subsubsection.4.16.4.2}%
+\contentsline {subsubsection}{\numberline {4.16.4.3}idSelectedAlarm\_}{125}{subsubsection.4.16.4.3}%
+\contentsline {subsubsection}{\numberline {4.16.4.4}keyboard}{125}{subsubsection.4.16.4.4}%
+\contentsline {subsubsection}{\numberline {4.16.4.5}name\_}{126}{subsubsection.4.16.4.5}%
+\contentsline {subsubsection}{\numberline {4.16.4.6}nameSelectedUser\_}{126}{subsubsection.4.16.4.6}%
+\contentsline {subsubsection}{\numberline {4.16.4.7}nif\_}{126}{subsubsection.4.16.4.7}%
+\contentsline {subsubsection}{\numberline {4.16.4.8}nifSelectedUser\_}{126}{subsubsection.4.16.4.8}%
+\contentsline {subsubsection}{\numberline {4.16.4.9}password\_}{127}{subsubsection.4.16.4.9}%
+\contentsline {subsubsection}{\numberline {4.16.4.10}passwordSelectedUser\_}{127}{subsubsection.4.16.4.10}%
+\contentsline {subsubsection}{\numberline {4.16.4.11}privilegesSelectedUser\_}{127}{subsubsection.4.16.4.11}%
+\contentsline {subsubsection}{\numberline {4.16.4.12}screen}{127}{subsubsection.4.16.4.12}%
+\contentsline {subsubsection}{\numberline {4.16.4.13}selection\_}{128}{subsubsection.4.16.4.13}%
+\contentsline {subsubsection}{\numberline {4.16.4.14}sw}{128}{subsubsection.4.16.4.14}%
+\contentsline {subsubsection}{\numberline {4.16.4.15}typeAlarm\_}{128}{subsubsection.4.16.4.15}%
+\contentsline {section}{\numberline {4.17}Ph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{129}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{131}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Constructor \& Destructor Documentation}{131}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}PhSensor()}{131}{subsubsection.4.17.2.1}%
+\contentsline {subsubsection}{\numberline {4.17.2.2}$\sim $PhSensor()}{132}{subsubsection.4.17.2.2}%
+\contentsline {subsection}{\numberline {4.17.3}Member Function Documentation}{132}{subsection.4.17.3}%
+\contentsline {subsubsection}{\numberline {4.17.3.1}checkAllgood()}{132}{subsubsection.4.17.3.1}%
+\contentsline {subsubsection}{\numberline {4.17.3.2}collectAndPrint()}{133}{subsubsection.4.17.3.2}%
+\contentsline {subsubsection}{\numberline {4.17.3.3}collectData()}{133}{subsubsection.4.17.3.3}%
+\contentsline {subsubsection}{\numberline {4.17.3.4}printData()}{134}{subsubsection.4.17.3.4}%
+\contentsline {subsubsection}{\numberline {4.17.3.5}qualifyPh()}{135}{subsubsection.4.17.3.5}%
+\contentsline {subsubsection}{\numberline {4.17.3.6}stringStatus()}{136}{subsubsection.4.17.3.6}%
+\contentsline {subsection}{\numberline {4.17.4}Friends And Related Function Documentation}{137}{subsection.4.17.4}%
+\contentsline {subsubsection}{\numberline {4.17.4.1}operator$<$$<$}{137}{subsubsection.4.17.4.1}%
+\contentsline {section}{\numberline {4.18}Pressure\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{137}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Detailed Description}{140}{subsection.4.18.1}%
+\contentsline {subsection}{\numberline {4.18.2}Constructor \& Destructor Documentation}{140}{subsection.4.18.2}%
+\contentsline {subsubsection}{\numberline {4.18.2.1}PressureSensor()}{140}{subsubsection.4.18.2.1}%
+\contentsline {subsubsection}{\numberline {4.18.2.2}$\sim $PressureSensor()}{140}{subsubsection.4.18.2.2}%
+\contentsline {subsection}{\numberline {4.18.3}Member Function Documentation}{141}{subsection.4.18.3}%
+\contentsline {subsubsection}{\numberline {4.18.3.1}checkAllgood()}{141}{subsubsection.4.18.3.1}%
+\contentsline {subsubsection}{\numberline {4.18.3.2}collectAndPrint()}{142}{subsubsection.4.18.3.2}%
+\contentsline {subsubsection}{\numberline {4.18.3.3}collectData()}{142}{subsubsection.4.18.3.3}%
+\contentsline {subsubsection}{\numberline {4.18.3.4}printData()}{143}{subsubsection.4.18.3.4}%
+\contentsline {subsubsection}{\numberline {4.18.3.5}stringStatus()}{144}{subsubsection.4.18.3.5}%
+\contentsline {subsection}{\numberline {4.18.4}Friends And Related Function Documentation}{145}{subsection.4.18.4}%
+\contentsline {subsubsection}{\numberline {4.18.4.1}operator$<$$<$}{145}{subsubsection.4.18.4.1}%
+\contentsline {section}{\numberline {4.19}Screen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware Class Reference}{146}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{148}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Constructor \& Destructor Documentation}{148}{subsection.4.19.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}ScreenHardware()}{148}{subsubsection.4.19.2.1}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}$\sim $ScreenHardware()}{149}{subsubsection.4.19.2.2}%
+\contentsline {subsection}{\numberline {4.19.3}Member Function Documentation}{149}{subsection.4.19.3}%
+\contentsline {subsubsection}{\numberline {4.19.3.1}askInput()}{149}{subsubsection.4.19.3.1}%
+\contentsline {subsubsection}{\numberline {4.19.3.2}cleanScreen()}{150}{subsubsection.4.19.3.2}%
+\contentsline {subsubsection}{\numberline {4.19.3.3}createAlarmWindow()}{150}{subsubsection.4.19.3.3}%
+\contentsline {subsubsection}{\numberline {4.19.3.4}createUserWindow()}{150}{subsubsection.4.19.3.4}%
+\contentsline {subsubsection}{\numberline {4.19.3.5}deleteAlarmWindow()}{151}{subsubsection.4.19.3.5}%
+\contentsline {subsubsection}{\numberline {4.19.3.6}deleteUserWindow()}{151}{subsubsection.4.19.3.6}%
+\contentsline {subsubsection}{\numberline {4.19.3.7}displayAlarmsWindow()}{152}{subsubsection.4.19.3.7}%
+\contentsline {subsubsection}{\numberline {4.19.3.8}displayErrorWindow()}{152}{subsubsection.4.19.3.8}%
+\contentsline {subsubsection}{\numberline {4.19.3.9}displayOutput()}{153}{subsubsection.4.19.3.9}%
+\contentsline {subsubsection}{\numberline {4.19.3.10}displaySensorsWindow()}{153}{subsubsection.4.19.3.10}%
+\contentsline {subsubsection}{\numberline {4.19.3.11}displayUsersWindow()}{153}{subsubsection.4.19.3.11}%
+\contentsline {subsubsection}{\numberline {4.19.3.12}exitWindow()}{154}{subsubsection.4.19.3.12}%
+\contentsline {subsubsection}{\numberline {4.19.3.13}initialWindow()}{154}{subsubsection.4.19.3.13}%
+\contentsline {subsubsection}{\numberline {4.19.3.14}loginWindow()}{155}{subsubsection.4.19.3.14}%
+\contentsline {subsubsection}{\numberline {4.19.3.15}mainWindowAdmin()}{155}{subsubsection.4.19.3.15}%
+\contentsline {subsubsection}{\numberline {4.19.3.16}mainWindowEmployee()}{156}{subsubsection.4.19.3.16}%
+\contentsline {subsubsection}{\numberline {4.19.3.17}mainWindowGuest()}{156}{subsubsection.4.19.3.17}%
+\contentsline {subsubsection}{\numberline {4.19.3.18}saveAlarmWindow()}{157}{subsubsection.4.19.3.18}%
+\contentsline {subsubsection}{\numberline {4.19.3.19}turnOnOffSystemWindow()}{157}{subsubsection.4.19.3.19}%
+\contentsline {subsubsection}{\numberline {4.19.3.20}updateUserWindow()}{158}{subsubsection.4.19.3.20}%
+\contentsline {section}{\numberline {4.20}Sensor Class Reference}{158}{section.4.20}%
+\contentsline {subsection}{\numberline {4.20.1}Detailed Description}{161}{subsection.4.20.1}%
+\contentsline {subsection}{\numberline {4.20.2}Member Enumeration Documentation}{161}{subsection.4.20.2}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}Types}{161}{subsubsection.4.20.2.1}%
+\contentsline {subsection}{\numberline {4.20.3}Constructor \& Destructor Documentation}{161}{subsection.4.20.3}%
+\contentsline {subsubsection}{\numberline {4.20.3.1}Sensor()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{161}{subsubsection.4.20.3.1}%
+\contentsline {subsubsection}{\numberline {4.20.3.2}Sensor()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{162}{subsubsection.4.20.3.2}%
+\contentsline {subsubsection}{\numberline {4.20.3.3}$\sim $Sensor()}{162}{subsubsection.4.20.3.3}%
+\contentsline {subsection}{\numberline {4.20.4}Member Function Documentation}{162}{subsection.4.20.4}%
+\contentsline {subsubsection}{\numberline {4.20.4.1}checkAllgood()}{163}{subsubsection.4.20.4.1}%
+\contentsline {subsubsection}{\numberline {4.20.4.2}collectAndPrint()}{163}{subsubsection.4.20.4.2}%
+\contentsline {subsubsection}{\numberline {4.20.4.3}collectData()}{164}{subsubsection.4.20.4.3}%
+\contentsline {subsubsection}{\numberline {4.20.4.4}getData()}{164}{subsubsection.4.20.4.4}%
+\contentsline {subsubsection}{\numberline {4.20.4.5}getId()}{165}{subsubsection.4.20.4.5}%
+\contentsline {subsubsection}{\numberline {4.20.4.6}getType()}{166}{subsubsection.4.20.4.6}%
+\contentsline {subsubsection}{\numberline {4.20.4.7}isActive()}{167}{subsubsection.4.20.4.7}%
+\contentsline {subsubsection}{\numberline {4.20.4.8}operator$<$()}{167}{subsubsection.4.20.4.8}%
+\contentsline {subsubsection}{\numberline {4.20.4.9}operator==()}{168}{subsubsection.4.20.4.9}%
+\contentsline {subsubsection}{\numberline {4.20.4.10}operator$>$()}{168}{subsubsection.4.20.4.10}%
+\contentsline {subsubsection}{\numberline {4.20.4.11}printData()}{169}{subsubsection.4.20.4.11}%
+\contentsline {subsubsection}{\numberline {4.20.4.12}setData()}{169}{subsubsection.4.20.4.12}%
+\contentsline {subsubsection}{\numberline {4.20.4.13}setId()}{170}{subsubsection.4.20.4.13}%
+\contentsline {subsubsection}{\numberline {4.20.4.14}setType()}{171}{subsubsection.4.20.4.14}%
+\contentsline {subsubsection}{\numberline {4.20.4.15}stringToType()}{171}{subsubsection.4.20.4.15}%
+\contentsline {subsubsection}{\numberline {4.20.4.16}turnOff()}{172}{subsubsection.4.20.4.16}%
+\contentsline {subsubsection}{\numberline {4.20.4.17}turnOn()}{173}{subsubsection.4.20.4.17}%
+\contentsline {subsubsection}{\numberline {4.20.4.18}typeToString()}{173}{subsubsection.4.20.4.18}%
+\contentsline {subsection}{\numberline {4.20.5}Friends And Related Function Documentation}{174}{subsection.4.20.5}%
+\contentsline {subsubsection}{\numberline {4.20.5.1}operator$<$$<$}{174}{subsubsection.4.20.5.1}%
+\contentsline {subsubsection}{\numberline {4.20.5.2}operator$>$$>$}{174}{subsubsection.4.20.5.2}%
+\contentsline {subsection}{\numberline {4.20.6}Member Data Documentation}{175}{subsection.4.20.6}%
+\contentsline {subsubsection}{\numberline {4.20.6.1}active\_}{175}{subsubsection.4.20.6.1}%
+\contentsline {subsubsection}{\numberline {4.20.6.2}data\_}{175}{subsubsection.4.20.6.2}%
+\contentsline {subsubsection}{\numberline {4.20.6.3}id\_}{175}{subsubsection.4.20.6.3}%
+\contentsline {subsubsection}{\numberline {4.20.6.4}type\_}{175}{subsubsection.4.20.6.4}%
+\contentsline {section}{\numberline {4.21}Switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware Class Reference}{176}{section.4.21}%
+\contentsline {subsection}{\numberline {4.21.1}Detailed Description}{178}{subsection.4.21.1}%
+\contentsline {subsection}{\numberline {4.21.2}Constructor \& Destructor Documentation}{178}{subsection.4.21.2}%
+\contentsline {subsubsection}{\numberline {4.21.2.1}SwitchHardware()}{178}{subsubsection.4.21.2.1}%
+\contentsline {subsubsection}{\numberline {4.21.2.2}$\sim $SwitchHardware()}{178}{subsubsection.4.21.2.2}%
+\contentsline {subsection}{\numberline {4.21.3}Member Function Documentation}{178}{subsection.4.21.3}%
+\contentsline {subsubsection}{\numberline {4.21.3.1}askInput()}{179}{subsubsection.4.21.3.1}%
+\contentsline {subsubsection}{\numberline {4.21.3.2}displayOutput()}{180}{subsubsection.4.21.3.2}%
+\contentsline {subsubsection}{\numberline {4.21.3.3}translateInput()}{180}{subsubsection.4.21.3.3}%
+\contentsline {section}{\numberline {4.22}Temperature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor Class Reference}{181}{section.4.22}%
+\contentsline {subsection}{\numberline {4.22.1}Detailed Description}{184}{subsection.4.22.1}%
+\contentsline {subsection}{\numberline {4.22.2}Constructor \& Destructor Documentation}{184}{subsection.4.22.2}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}TemperatureSensor()}{184}{subsubsection.4.22.2.1}%
+\contentsline {subsubsection}{\numberline {4.22.2.2}$\sim $TemperatureSensor()}{184}{subsubsection.4.22.2.2}%
+\contentsline {subsection}{\numberline {4.22.3}Member Function Documentation}{185}{subsection.4.22.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.1}checkAllgood()}{185}{subsubsection.4.22.3.1}%
+\contentsline {subsubsection}{\numberline {4.22.3.2}collectAndPrint()}{186}{subsubsection.4.22.3.2}%
+\contentsline {subsubsection}{\numberline {4.22.3.3}collectData()}{186}{subsubsection.4.22.3.3}%
+\contentsline {subsubsection}{\numberline {4.22.3.4}printData()}{187}{subsubsection.4.22.3.4}%
+\contentsline {subsubsection}{\numberline {4.22.3.5}stringStatus()}{188}{subsubsection.4.22.3.5}%
+\contentsline {subsection}{\numberline {4.22.4}Friends And Related Function Documentation}{189}{subsection.4.22.4}%
+\contentsline {subsubsection}{\numberline {4.22.4.1}operator$<$$<$}{189}{subsubsection.4.22.4.1}%
+\contentsline {section}{\numberline {4.23}User Class Reference}{190}{section.4.23}%
+\contentsline {subsection}{\numberline {4.23.1}Detailed Description}{192}{subsection.4.23.1}%
+\contentsline {subsection}{\numberline {4.23.2}Constructor \& Destructor Documentation}{192}{subsection.4.23.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.1}User()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{193}{subsubsection.4.23.2.1}%
+\contentsline {subsubsection}{\numberline {4.23.2.2}User()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{193}{subsubsection.4.23.2.2}%
+\contentsline {subsubsection}{\numberline {4.23.2.3}$\sim $User()}{194}{subsubsection.4.23.2.3}%
+\contentsline {subsection}{\numberline {4.23.3}Member Function Documentation}{194}{subsection.4.23.3}%
+\contentsline {subsubsection}{\numberline {4.23.3.1}getEmail()}{195}{subsubsection.4.23.3.1}%
+\contentsline {subsubsection}{\numberline {4.23.3.2}getName()}{195}{subsubsection.4.23.3.2}%
+\contentsline {subsubsection}{\numberline {4.23.3.3}getNif()}{196}{subsubsection.4.23.3.3}%
+\contentsline {subsubsection}{\numberline {4.23.3.4}getPassword()}{196}{subsubsection.4.23.3.4}%
+\contentsline {subsubsection}{\numberline {4.23.3.5}getPrivileges()}{197}{subsubsection.4.23.3.5}%
+\contentsline {subsubsection}{\numberline {4.23.3.6}operator$<$()}{197}{subsubsection.4.23.3.6}%
+\contentsline {subsubsection}{\numberline {4.23.3.7}operator==()}{198}{subsubsection.4.23.3.7}%
+\contentsline {subsubsection}{\numberline {4.23.3.8}operator$>$()}{198}{subsubsection.4.23.3.8}%
+\contentsline {subsubsection}{\numberline {4.23.3.9}printUser()}{199}{subsubsection.4.23.3.9}%
+\contentsline {subsubsection}{\numberline {4.23.3.10}setEmail()}{199}{subsubsection.4.23.3.10}%
+\contentsline {subsubsection}{\numberline {4.23.3.11}setName()}{200}{subsubsection.4.23.3.11}%
+\contentsline {subsubsection}{\numberline {4.23.3.12}setNif()}{201}{subsubsection.4.23.3.12}%
+\contentsline {subsubsection}{\numberline {4.23.3.13}setPassword()}{202}{subsubsection.4.23.3.13}%
+\contentsline {subsubsection}{\numberline {4.23.3.14}setPrivileges()}{203}{subsubsection.4.23.3.14}%
+\contentsline {subsection}{\numberline {4.23.4}Friends And Related Function Documentation}{204}{subsection.4.23.4}%
+\contentsline {subsubsection}{\numberline {4.23.4.1}operator$<$$<$}{204}{subsubsection.4.23.4.1}%
+\contentsline {subsubsection}{\numberline {4.23.4.2}operator$>$$>$}{204}{subsubsection.4.23.4.2}%
+\contentsline {subsection}{\numberline {4.23.5}Member Data Documentation}{205}{subsection.4.23.5}%
+\contentsline {subsubsection}{\numberline {4.23.5.1}email}{205}{subsubsection.4.23.5.1}%
+\contentsline {subsubsection}{\numberline {4.23.5.2}name}{205}{subsubsection.4.23.5.2}%
+\contentsline {subsubsection}{\numberline {4.23.5.3}nif}{205}{subsubsection.4.23.5.3}%
+\contentsline {subsubsection}{\numberline {4.23.5.4}password}{205}{subsubsection.4.23.5.4}%
+\contentsline {subsubsection}{\numberline {4.23.5.5}privileges}{206}{subsubsection.4.23.5.5}%
+\contentsline {section}{\numberline {4.24}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin Class Reference}{206}{section.4.24}%
+\contentsline {subsection}{\numberline {4.24.1}Detailed Description}{207}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {4.24.2}Constructor \& Destructor Documentation}{207}{subsection.4.24.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.1}UserAdmin()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{208}{subsubsection.4.24.2.1}%
+\contentsline {subsubsection}{\numberline {4.24.2.2}UserAdmin()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{208}{subsubsection.4.24.2.2}%
+\contentsline {subsubsection}{\numberline {4.24.2.3}$\sim $UserAdmin()}{209}{subsubsection.4.24.2.3}%
+\contentsline {section}{\numberline {4.25}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Employee Class Reference}{210}{section.4.25}%
+\contentsline {subsection}{\numberline {4.25.1}Detailed Description}{211}{subsection.4.25.1}%
+\contentsline {subsection}{\numberline {4.25.2}Constructor \& Destructor Documentation}{211}{subsection.4.25.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}UserEmployee()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{212}{subsubsection.4.25.2.1}%
+\contentsline {subsubsection}{\numberline {4.25.2.2}UserEmployee()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{212}{subsubsection.4.25.2.2}%
+\contentsline {subsubsection}{\numberline {4.25.2.3}$\sim $UserEmployee()}{213}{subsubsection.4.25.2.3}%
+\contentsline {section}{\numberline {4.26}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guest Class Reference}{214}{section.4.26}%
+\contentsline {subsection}{\numberline {4.26.1}Detailed Description}{215}{subsection.4.26.1}%
+\contentsline {subsection}{\numberline {4.26.2}Constructor \& Destructor Documentation}{215}{subsection.4.26.2}%
+\contentsline {subsubsection}{\numberline {4.26.2.1}UserGuest()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{216}{subsubsection.4.26.2.1}%
+\contentsline {subsubsection}{\numberline {4.26.2.2}UserGuest()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{216}{subsubsection.4.26.2.2}%
+\contentsline {subsubsection}{\numberline {4.26.2.3}$\sim $UserGuest()}{217}{subsubsection.4.26.2.3}%
+\contentsline {section}{\numberline {4.27}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Name\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comparator Class Reference}{218}{section.4.27}%
+\contentsline {subsection}{\numberline {4.27.1}Detailed Description}{218}{subsection.4.27.1}%
+\contentsline {subsection}{\numberline {4.27.2}Member Function Documentation}{218}{subsection.4.27.2}%
+\contentsline {subsubsection}{\numberline {4.27.2.1}operator()()}{218}{subsubsection.4.27.2.1}%
+\contentsline {section}{\numberline {4.28}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ptr\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Comparator Class Reference}{219}{section.4.28}%
+\contentsline {subsection}{\numberline {4.28.1}Detailed Description}{219}{subsection.4.28.1}%
+\contentsline {subsection}{\numberline {4.28.2}Member Function Documentation}{219}{subsection.4.28.2}%
+\contentsline {subsubsection}{\numberline {4.28.2.1}operator()()}{219}{subsubsection.4.28.2.1}%
+\contentsline {section}{\numberline {4.29}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database Class Reference}{220}{section.4.29}%
+\contentsline {subsection}{\numberline {4.29.1}Detailed Description}{221}{subsection.4.29.1}%
+\contentsline {subsection}{\numberline {4.29.2}Constructor \& Destructor Documentation}{221}{subsection.4.29.2}%
+\contentsline {subsubsection}{\numberline {4.29.2.1}UsersDatabase()}{222}{subsubsection.4.29.2.1}%
+\contentsline {subsubsection}{\numberline {4.29.2.2}$\sim $UsersDatabase()}{222}{subsubsection.4.29.2.2}%
+\contentsline {subsection}{\numberline {4.29.3}Member Function Documentation}{222}{subsection.4.29.3}%
+\contentsline {subsubsection}{\numberline {4.29.3.1}addUser()}{222}{subsubsection.4.29.3.1}%
+\contentsline {subsubsection}{\numberline {4.29.3.2}deleteUser()}{223}{subsubsection.4.29.3.2}%
+\contentsline {subsubsection}{\numberline {4.29.3.3}deleteUserByEmail()}{224}{subsubsection.4.29.3.3}%
+\contentsline {subsubsection}{\numberline {4.29.3.4}deleteUserByName()}{225}{subsubsection.4.29.3.4}%
+\contentsline {subsubsection}{\numberline {4.29.3.5}deleteUserByNif()}{226}{subsubsection.4.29.3.5}%
+\contentsline {subsubsection}{\numberline {4.29.3.6}findUser()}{227}{subsubsection.4.29.3.6}%
+\contentsline {subsubsection}{\numberline {4.29.3.7}findUserByEmail()}{228}{subsubsection.4.29.3.7}%
+\contentsline {subsubsection}{\numberline {4.29.3.8}findUserByName()}{229}{subsubsection.4.29.3.8}%
+\contentsline {subsubsection}{\numberline {4.29.3.9}findUserByNif()}{230}{subsubsection.4.29.3.9}%
+\contentsline {subsubsection}{\numberline {4.29.3.10}findUserByPassword()}{231}{subsubsection.4.29.3.10}%
+\contentsline {subsubsection}{\numberline {4.29.3.11}getUsers()}{231}{subsubsection.4.29.3.11}%
+\contentsline {subsubsection}{\numberline {4.29.3.12}isValidPrivileges()}{232}{subsubsection.4.29.3.12}%
+\contentsline {subsubsection}{\numberline {4.29.3.13}printDeletedUser()}{233}{subsubsection.4.29.3.13}%
+\contentsline {subsubsection}{\numberline {4.29.3.14}printUsers()}{234}{subsubsection.4.29.3.14}%
+\contentsline {subsubsection}{\numberline {4.29.3.15}setUsers()}{234}{subsubsection.4.29.3.15}%
+\contentsline {subsection}{\numberline {4.29.4}Member Data Documentation}{235}{subsection.4.29.4}%
+\contentsline {subsubsection}{\numberline {4.29.4.1}users\_}{235}{subsubsection.4.29.4.1}%
+\contentsline {section}{\numberline {4.30}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server Class Reference}{236}{section.4.30}%
+\contentsline {subsection}{\numberline {4.30.1}Detailed Description}{237}{subsection.4.30.1}%
+\contentsline {subsection}{\numberline {4.30.2}Constructor \& Destructor Documentation}{237}{subsection.4.30.2}%
+\contentsline {subsubsection}{\numberline {4.30.2.1}UsersServer()}{238}{subsubsection.4.30.2.1}%
+\contentsline {subsubsection}{\numberline {4.30.2.2}$\sim $UsersServer()}{238}{subsubsection.4.30.2.2}%
+\contentsline {subsection}{\numberline {4.30.3}Member Function Documentation}{238}{subsection.4.30.3}%
+\contentsline {subsubsection}{\numberline {4.30.3.1}createUser()}{238}{subsubsection.4.30.3.1}%
+\contentsline {subsubsection}{\numberline {4.30.3.2}deleteUser()}{239}{subsubsection.4.30.3.2}%
+\contentsline {subsubsection}{\numberline {4.30.3.3}findUserLogin()}{239}{subsubsection.4.30.3.3}%
+\contentsline {subsubsection}{\numberline {4.30.3.4}getPrivileges()}{240}{subsubsection.4.30.3.4}%
+\contentsline {subsubsection}{\numberline {4.30.3.5}loadUsersFromFile()}{241}{subsubsection.4.30.3.5}%
+\contentsline {subsubsection}{\numberline {4.30.3.6}printUsersServer()}{242}{subsubsection.4.30.3.6}%
+\contentsline {subsubsection}{\numberline {4.30.3.7}readUsersFromFileTxt()}{243}{subsubsection.4.30.3.7}%
+\contentsline {subsubsection}{\numberline {4.30.3.8}saveUsersToFile()}{243}{subsubsection.4.30.3.8}%
+\contentsline {subsubsection}{\numberline {4.30.3.9}updateUser()}{244}{subsubsection.4.30.3.9}%
+\contentsline {subsubsection}{\numberline {4.30.3.10}writeUserToFileTxt()}{245}{subsubsection.4.30.3.10}%
+\contentsline {subsection}{\numberline {4.30.4}Member Data Documentation}{246}{subsection.4.30.4}%
+\contentsline {subsubsection}{\numberline {4.30.4.1}fileNameTxt\_}{246}{subsubsection.4.30.4.1}%
+\contentsline {subsubsection}{\numberline {4.30.4.2}usersDatabase\_}{246}{subsubsection.4.30.4.2}%
+\contentsline {chapter}{\numberline {5}File Documentation}{247}{chapter.5}%
+\contentsline {section}{\numberline {5.1}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Air\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quality\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{247}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Function Documentation}{247}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}operator$<$$<$()}{248}{subsubsection.5.1.1.1}%
+\contentsline {section}{\numberline {5.2}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Air\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quality\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{248}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{249}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.cpp File Reference}{249}{section.5.3}%
+\contentsline {section}{\numberline {5.4}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.h File Reference}{249}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{250}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.5}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exceptions.h File Reference}{251}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{252}{subsection.5.5.1}%
+\contentsline {section}{\numberline {5.6}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Green\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}House.cpp File Reference}{252}{section.5.6}%
+\contentsline {section}{\numberline {5.7}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Green\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}House.h File Reference}{252}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{253}{subsection.5.7.1}%
+\contentsline {section}{\numberline {5.8}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{254}{section.5.8}%
+\contentsline {section}{\numberline {5.9}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.h File Reference}{254}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{255}{subsection.5.9.1}%
+\contentsline {section}{\numberline {5.10}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hydrometer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{255}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Function Documentation}{256}{subsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.1}operator$<$$<$()}{256}{subsubsection.5.10.1.1}%
+\contentsline {section}{\numberline {5.11}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hydrometer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{256}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{257}{subsection.5.11.1}%
+\contentsline {section}{\numberline {5.12}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{257}{section.5.12}%
+\contentsline {section}{\numberline {5.13}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.h File Reference}{258}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{258}{subsection.5.13.1}%
+\contentsline {section}{\numberline {5.14}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Light\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{259}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Function Documentation}{259}{subsection.5.14.1}%
+\contentsline {subsubsection}{\numberline {5.14.1.1}operator$<$$<$()}{259}{subsubsection.5.14.1.1}%
+\contentsline {section}{\numberline {5.15}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Light\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{260}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{260}{subsection.5.15.1}%
+\contentsline {section}{\numberline {5.16}src/main.cpp File Reference}{261}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Function Documentation}{261}{subsection.5.16.1}%
+\contentsline {subsubsection}{\numberline {5.16.1.1}main()}{261}{subsubsection.5.16.1.1}%
+\contentsline {section}{\numberline {5.17}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Air\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Quality\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{262}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Function Documentation}{263}{subsection.5.17.1}%
+\contentsline {subsubsection}{\numberline {5.17.1.1}main()}{263}{subsubsection.5.17.1.1}%
+\contentsline {section}{\numberline {5.18}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.cpp File Reference}{264}{section.5.18}%
+\contentsline {subsection}{\numberline {5.18.1}Function Documentation}{264}{subsection.5.18.1}%
+\contentsline {subsubsection}{\numberline {5.18.1.1}main()}{265}{subsubsection.5.18.1.1}%
+\contentsline {section}{\numberline {5.19}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Green\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}House.cpp File Reference}{265}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Function Documentation}{266}{subsection.5.19.1}%
+\contentsline {subsubsection}{\numberline {5.19.1.1}main()}{266}{subsubsection.5.19.1.1}%
+\contentsline {section}{\numberline {5.20}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{267}{section.5.20}%
+\contentsline {subsection}{\numberline {5.20.1}Function Documentation}{268}{subsection.5.20.1}%
+\contentsline {subsubsection}{\numberline {5.20.1.1}main()}{268}{subsubsection.5.20.1.1}%
+\contentsline {section}{\numberline {5.21}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hydrometer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{269}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Function Documentation}{269}{subsection.5.21.1}%
+\contentsline {subsubsection}{\numberline {5.21.1.1}main()}{270}{subsubsection.5.21.1.1}%
+\contentsline {section}{\numberline {5.22}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Keyboard\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{270}{section.5.22}%
+\contentsline {subsection}{\numberline {5.22.1}Function Documentation}{271}{subsection.5.22.1}%
+\contentsline {subsubsection}{\numberline {5.22.1.1}main()}{271}{subsubsection.5.22.1.1}%
+\contentsline {section}{\numberline {5.23}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Light\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{272}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Function Documentation}{273}{subsection.5.23.1}%
+\contentsline {subsubsection}{\numberline {5.23.1.1}main()}{273}{subsubsection.5.23.1.1}%
+\contentsline {section}{\numberline {5.24}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Monitoring\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.cpp File Reference}{273}{section.5.24}%
+\contentsline {subsection}{\numberline {5.24.1}Function Documentation}{274}{subsection.5.24.1}%
+\contentsline {subsubsection}{\numberline {5.24.1.1}main()}{274}{subsubsection.5.24.1.1}%
+\contentsline {section}{\numberline {5.25}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{275}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Function Documentation}{276}{subsection.5.25.1}%
+\contentsline {subsubsection}{\numberline {5.25.1.1}main()}{276}{subsubsection.5.25.1.1}%
+\contentsline {section}{\numberline {5.26}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pressure\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{277}{section.5.26}%
+\contentsline {subsection}{\numberline {5.26.1}Function Documentation}{277}{subsection.5.26.1}%
+\contentsline {subsubsection}{\numberline {5.26.1.1}main()}{278}{subsubsection.5.26.1.1}%
+\contentsline {section}{\numberline {5.27}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Screen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{278}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Function Documentation}{279}{subsection.5.27.1}%
+\contentsline {subsubsection}{\numberline {5.27.1.1}main()}{279}{subsubsection.5.27.1.1}%
+\contentsline {section}{\numberline {5.28}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{281}{section.5.28}%
+\contentsline {subsection}{\numberline {5.28.1}Function Documentation}{281}{subsection.5.28.1}%
+\contentsline {subsubsection}{\numberline {5.28.1.1}main()}{281}{subsubsection.5.28.1.1}%
+\contentsline {section}{\numberline {5.29}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{283}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Function Documentation}{284}{subsection.5.29.1}%
+\contentsline {subsubsection}{\numberline {5.29.1.1}main()}{284}{subsubsection.5.29.1.1}%
+\contentsline {section}{\numberline {5.30}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Temperature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{285}{section.5.30}%
+\contentsline {subsection}{\numberline {5.30.1}Function Documentation}{285}{subsection.5.30.1}%
+\contentsline {subsubsection}{\numberline {5.30.1.1}main()}{286}{subsubsection.5.30.1.1}%
+\contentsline {section}{\numberline {5.31}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User.cpp File Reference}{286}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Function Documentation}{287}{subsection.5.31.1}%
+\contentsline {subsubsection}{\numberline {5.31.1.1}main()}{287}{subsubsection.5.31.1.1}%
+\contentsline {section}{\numberline {5.32}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.cpp File Reference}{289}{section.5.32}%
+\contentsline {subsection}{\numberline {5.32.1}Function Documentation}{290}{subsection.5.32.1}%
+\contentsline {subsubsection}{\numberline {5.32.1.1}main()}{290}{subsubsection.5.32.1.1}%
+\contentsline {section}{\numberline {5.33}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Employee.cpp File Reference}{291}{section.5.33}%
+\contentsline {subsection}{\numberline {5.33.1}Function Documentation}{292}{subsection.5.33.1}%
+\contentsline {subsubsection}{\numberline {5.33.1.1}main()}{292}{subsubsection.5.33.1.1}%
+\contentsline {section}{\numberline {5.34}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guest.cpp File Reference}{293}{section.5.34}%
+\contentsline {subsection}{\numberline {5.34.1}Function Documentation}{293}{subsection.5.34.1}%
+\contentsline {subsubsection}{\numberline {5.34.1.1}main()}{293}{subsubsection.5.34.1.1}%
+\contentsline {section}{\numberline {5.35}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.cpp File Reference}{294}{section.5.35}%
+\contentsline {subsection}{\numberline {5.35.1}Function Documentation}{295}{subsection.5.35.1}%
+\contentsline {subsubsection}{\numberline {5.35.1.1}main()}{295}{subsubsection.5.35.1.1}%
+\contentsline {section}{\numberline {5.36}src/main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server.cpp File Reference}{296}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Function Documentation}{297}{subsection.5.36.1}%
+\contentsline {subsubsection}{\numberline {5.36.1.1}main()}{297}{subsubsection.5.36.1.1}%
+\contentsline {section}{\numberline {5.37}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Monitoring\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.cpp File Reference}{298}{section.5.37}%
+\contentsline {subsection}{\numberline {5.37.1}Variable Documentation}{299}{subsection.5.37.1}%
+\contentsline {subsubsection}{\numberline {5.37.1.1}ADMIN\_MENU\_OPTIONS}{299}{subsubsection.5.37.1.1}%
+\contentsline {subsubsection}{\numberline {5.37.1.2}EMPLOYEE\_MENU\_OPTIONS}{299}{subsubsection.5.37.1.2}%
+\contentsline {subsubsection}{\numberline {5.37.1.3}GUEST\_MENU\_OPTIONS}{300}{subsubsection.5.37.1.3}%
+\contentsline {subsubsection}{\numberline {5.37.1.4}MAIN\_MENU\_OPTIONS}{300}{subsubsection.5.37.1.4}%
+\contentsline {section}{\numberline {5.38}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Monitoring\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}System.h File Reference}{300}{section.5.38}%
+\contentsline {subsection}{\numberline {5.38.1}Detailed Description}{301}{subsection.5.38.1}%
+\contentsline {subsection}{\numberline {5.38.2}Variable Documentation}{301}{subsection.5.38.2}%
+\contentsline {subsubsection}{\numberline {5.38.2.1}ADMIN\_MENU\_OPTIONS}{301}{subsubsection.5.38.2.1}%
+\contentsline {subsubsection}{\numberline {5.38.2.2}EMPLOYEE\_MENU\_OPTIONS}{301}{subsubsection.5.38.2.2}%
+\contentsline {subsubsection}{\numberline {5.38.2.3}GUEST\_MENU\_OPTIONS}{302}{subsubsection.5.38.2.3}%
+\contentsline {subsubsection}{\numberline {5.38.2.4}MAIN\_MENU\_OPTIONS}{302}{subsubsection.5.38.2.4}%
+\contentsline {section}{\numberline {5.39}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{302}{section.5.39}%
+\contentsline {subsection}{\numberline {5.39.1}Function Documentation}{303}{subsection.5.39.1}%
+\contentsline {subsubsection}{\numberline {5.39.1.1}operator$<$$<$()}{303}{subsubsection.5.39.1.1}%
+\contentsline {section}{\numberline {5.40}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{303}{section.5.40}%
+\contentsline {subsection}{\numberline {5.40.1}Detailed Description}{304}{subsection.5.40.1}%
+\contentsline {section}{\numberline {5.41}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pressure\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{304}{section.5.41}%
+\contentsline {subsection}{\numberline {5.41.1}Function Documentation}{305}{subsection.5.41.1}%
+\contentsline {subsubsection}{\numberline {5.41.1.1}operator$<$$<$()}{305}{subsubsection.5.41.1.1}%
+\contentsline {section}{\numberline {5.42}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pressure\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{305}{section.5.42}%
+\contentsline {subsection}{\numberline {5.42.1}Detailed Description}{306}{subsection.5.42.1}%
+\contentsline {section}{\numberline {5.43}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Screen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{306}{section.5.43}%
+\contentsline {subsection}{\numberline {5.43.1}Variable Documentation}{307}{subsection.5.43.1}%
+\contentsline {subsubsection}{\numberline {5.43.1.1}ASK\_DATA}{307}{subsubsection.5.43.1.1}%
+\contentsline {subsubsection}{\numberline {5.43.1.2}USER\_PROMPT}{307}{subsubsection.5.43.1.2}%
+\contentsline {section}{\numberline {5.44}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Screen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.h File Reference}{307}{section.5.44}%
+\contentsline {subsection}{\numberline {5.44.1}Detailed Description}{308}{subsection.5.44.1}%
+\contentsline {section}{\numberline {5.45}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{308}{section.5.45}%
+\contentsline {subsection}{\numberline {5.45.1}Function Documentation}{309}{subsection.5.45.1}%
+\contentsline {subsubsection}{\numberline {5.45.1.1}operator$<$$<$()}{309}{subsubsection.5.45.1.1}%
+\contentsline {subsubsection}{\numberline {5.45.1.2}operator$>$$>$()}{309}{subsubsection.5.45.1.2}%
+\contentsline {section}{\numberline {5.46}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{310}{section.5.46}%
+\contentsline {subsection}{\numberline {5.46.1}Detailed Description}{310}{subsection.5.46.1}%
+\contentsline {section}{\numberline {5.47}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.cpp File Reference}{311}{section.5.47}%
+\contentsline {section}{\numberline {5.48}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hardware.h File Reference}{311}{section.5.48}%
+\contentsline {subsection}{\numberline {5.48.1}Detailed Description}{312}{subsection.5.48.1}%
+\contentsline {section}{\numberline {5.49}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Temperature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.cpp File Reference}{313}{section.5.49}%
+\contentsline {subsection}{\numberline {5.49.1}Function Documentation}{313}{subsection.5.49.1}%
+\contentsline {subsubsection}{\numberline {5.49.1.1}operator$<$$<$()}{313}{subsubsection.5.49.1.1}%
+\contentsline {section}{\numberline {5.50}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Temperature\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensor.h File Reference}{314}{section.5.50}%
+\contentsline {subsection}{\numberline {5.50.1}Detailed Description}{314}{subsection.5.50.1}%
+\contentsline {section}{\numberline {5.51}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User.cpp File Reference}{315}{section.5.51}%
+\contentsline {subsection}{\numberline {5.51.1}Function Documentation}{315}{subsection.5.51.1}%
+\contentsline {subsubsection}{\numberline {5.51.1.1}operator$<$$<$()}{315}{subsubsection.5.51.1.1}%
+\contentsline {subsubsection}{\numberline {5.51.1.2}operator$>$$>$()}{316}{subsubsection.5.51.1.2}%
+\contentsline {section}{\numberline {5.52}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User.h File Reference}{316}{section.5.52}%
+\contentsline {subsection}{\numberline {5.52.1}Detailed Description}{317}{subsection.5.52.1}%
+\contentsline {section}{\numberline {5.53}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.cpp File Reference}{317}{section.5.53}%
+\contentsline {section}{\numberline {5.54}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Admin.h File Reference}{318}{section.5.54}%
+\contentsline {subsection}{\numberline {5.54.1}Detailed Description}{318}{subsection.5.54.1}%
+\contentsline {section}{\numberline {5.55}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Employee.cpp File Reference}{319}{section.5.55}%
+\contentsline {section}{\numberline {5.56}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Employee.h File Reference}{319}{section.5.56}%
+\contentsline {subsection}{\numberline {5.56.1}Detailed Description}{320}{subsection.5.56.1}%
+\contentsline {section}{\numberline {5.57}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guest.cpp File Reference}{320}{section.5.57}%
+\contentsline {section}{\numberline {5.58}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Guest.h File Reference}{321}{section.5.58}%
+\contentsline {subsection}{\numberline {5.58.1}Detailed Description}{321}{subsection.5.58.1}%
+\contentsline {section}{\numberline {5.59}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.cpp File Reference}{322}{section.5.59}%
+\contentsline {section}{\numberline {5.60}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database.h File Reference}{322}{section.5.60}%
+\contentsline {subsection}{\numberline {5.60.1}Detailed Description}{323}{subsection.5.60.1}%
+\contentsline {section}{\numberline {5.61}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server.cpp File Reference}{323}{section.5.61}%
+\contentsline {section}{\numberline {5.62}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Server.h File Reference}{324}{section.5.62}%
+\contentsline {subsection}{\numberline {5.62.1}Detailed Description}{325}{subsection.5.62.1}%

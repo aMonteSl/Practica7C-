@@ -1,0 +1,9 @@
+<map id="MonitoringSystem::deleteUserScreen" name="MonitoringSystem::deleteUserScreen">
+<area shape="rect" id="node1" title="This method shows the message to delete a user." alt="" coords="5,35,196,76"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#ae74253dbaf1e90bc9d6134166ba3f60b" title="Delete a User object window." alt="" coords="266,5,474,47"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#aae45015a76d2d1961c281271be5ce488" title="This is the method to select a short user." alt="" coords="244,71,496,98"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#acd7c674be2caff1ac2bcc37b2cd0fb3b" title="This method asks the user for an input for the name." alt="" coords="555,21,766,47"/>
+<area shape="rect" id="node6" href="$classMonitoringSystem.html#af4af355f2a6bbda876e80f36ba1624cc" title="This method asks the user for an input for the NIF." alt="" coords="563,71,758,98"/>
+<area shape="rect" id="node7" href="$classMonitoringSystem.html#a26cbfb1c9afd14b76c5acbf99eae8569" title="This method asks the user for an input for the password." alt="" coords="544,122,777,149"/>
+<area shape="rect" id="node5" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="825,64,1016,105"/>
+</map>

@@ -1,0 +1,52 @@
+<map id="GreenHouse::manageAdmin" name="GreenHouse::manageAdmin">
+<area shape="rect" id="node1" title="Manage the admin." alt="" coords="5,863,211,890"/>
+<area shape="rect" id="node2" href="$classAlarmSensors.html#a1497086628b3bb30d60f2987eca8fe7f" title="Add a Sensor object." alt="" coords="285,27,473,54"/>
+<area shape="rect" id="node3" href="$classMonitoringSystem.html#a616050f732fdaf71ba9b5ab5372d630a" title="This method shows the message to create a new alarm." alt="" coords="283,169,474,211"/>
+<area shape="rect" id="node8" href="$classMonitoringSystem.html#ab99a47d5efa46cbe3386bb07bfabc109" title="This method shows the message to delete an alarm." alt="" coords="283,79,474,120"/>
+<area shape="rect" id="node10" href="$classAlarmSensors.html#a67e891efa5f14c93ba7e205081d675fc" title="Delete a Sensor object." alt="" coords="276,367,481,394"/>
+<area shape="rect" id="node11" href="$classMonitoringSystem.html#a7ed15cd1c877014b91d1572ec056d866" title="This method shows the message to show the alarms." alt="" coords="281,419,477,460"/>
+<area shape="rect" id="node13" href="$classAlarmSensors.html#a185412bdad879f251eea84eefc95fde3" title="Display the Alarm Status." alt="" coords="275,484,482,525"/>
+<area shape="rect" id="node14" href="$classAlarmSensors.html#a6b7509cfc7b77ab9943f1fa6052f56da" title="Display all Sensors Data." alt="" coords="287,549,471,591"/>
+<area shape="rect" id="node15" href="$classMonitoringSystem.html#a5a835975fa74862f8a79449a35442916" title="This method shows the message if and error occurs." alt="" coords="281,251,477,292"/>
+<area shape="rect" id="node17" href="$classMonitoringSystem.html#aa68121a3c71f4600182ac143a06c3cbe" title="This method exits the screen." alt="" coords="576,371,795,398"/>
+<area shape="rect" id="node19" href="$classMonitoringSystem.html#aa83416a623e4ad81d4554f8c5ac2c2d4" title="This method shows the message to show the sensors." alt="" coords="281,615,477,656"/>
+<area shape="rect" id="node21" href="$classMonitoringSystem.html#aff79411cc2b839659fbf77281a9c80ac" title="This method shows the message to show the users." alt="" coords="281,680,477,721"/>
+<area shape="rect" id="node23" href="$classMonitoringSystem.html#a1ec19661cb6383341518a15afb53e764" title="Get the Id Alarm object." alt="" coords="268,746,489,773"/>
+<area shape="rect" id="node24" href="$classMonitoringSystem.html#acb6f10a470beff7fdfdedf0305c123d6" title="Get the Id Selected Alarm object." alt="" coords="259,797,498,839"/>
+<area shape="rect" id="node25" href="$classMonitoringSystem.html#a508751e3f490b9942202e17664ea9893" title="Get the Selection object." alt="" coords="263,863,494,890"/>
+<area shape="rect" id="node26" href="$classMonitoringSystem.html#a1d98be1cb48544ca7c9ae3038b55f1bd" title="Get the Type Alarm object." alt="" coords="279,915,479,956"/>
+<area shape="rect" id="node27" href="$classMonitoringSystem.html#a3288619b3d16cf1ae901d86bee832398" title="This method shows the main menu for the admins." alt="" coords="261,1045,496,1087"/>
+<area shape="rect" id="node30" href="$classGreenHouse.html#a64682596d40e083a328bc02f091994d9" title="Manage the create user." alt="" coords="261,1111,497,1138"/>
+<area shape="rect" id="node38" href="$classGreenHouse.html#aab417a3db3791c88954382bd91644196" title="Manage the delete user." alt="" coords="261,1213,497,1239"/>
+<area shape="rect" id="node42" href="$classGreenHouse.html#ae1e6db8f518501ebb007f508780b8c32" title="Manage the update user." alt="" coords="259,1162,499,1189"/>
+<area shape="rect" id="node43" href="$classUsersServer.html#aa23ec5bd6c0b49cabb05e8d6e60f552a" title="Print all Users Print all users in the UsersDatabase object." alt="" coords="269,1263,488,1290"/>
+<area shape="rect" id="node44" href="$classGreenHouse.html#a5df12cb7812882c8d0102229bbadce33" title="Load the system." alt="" coords="308,1365,449,1391"/>
+<area shape="rect" id="node45" href="$classAlarmSensors.html#af51225da8d29225aaaaa65b162870242" title="This method saves the sensors data to a file, one .txt and other one .dat." alt="" coords="569,1458,802,1485"/>
+<area shape="rect" id="node46" href="$classUsersServer.html#a09ff022e97cf02e1737dc735b43364fe" title="Save Users to File Save users to a file." alt="" coords="578,1509,793,1535"/>
+<area shape="rect" id="node47" href="$classMonitoringSystem.html#a006d4ed3b290747ccc10079fa96eabea" title="This method shows the message to save an alarm." alt="" coords="269,1467,488,1508"/>
+<area shape="rect" id="node48" href="$classGreenHouse.html#a2b0cf6d2bb8a13658754ab1e2d2ad10e" title="Save the system." alt="" coords="306,1533,451,1559"/>
+<area shape="rect" id="node49" href="$classAlarmSensors.html#a45ac4465f0170fad4f498ee3f51258de" title="This method turns on or off the system." alt="" coords="263,1583,495,1610"/>
+<area shape="rect" id="node50" href="$classMonitoringSystem.html#aa710bcc81ffd855276d6fb73c04fcb9f" title="This method shows the message to turn on or off the system." alt="" coords="282,980,475,1021"/>
+<area shape="rect" id="node4" href="$classMonitoringSystem.html#a0ec7f8e47b126a33656b9db2a6ec98c2" title="This is the method to ask the id of the alarm." alt="" coords="574,71,797,98"/>
+<area shape="rect" id="node5" href="$classMonitoringSystem.html#a1c21a694a22b5ef0d596764239edd8e1" title="This is the method to ask the type of the alarm." alt="" coords="584,123,787,164"/>
+<area shape="rect" id="node7" href="$classScreenHardware.html#a6e27fbc2c5101439153e6c99f00f8420" title="Create a Alarm Window object." alt="" coords="577,188,794,229"/>
+<area shape="rect" id="node6" href="$classKeyboardHardware.html#a653d2180f0c6f1b626f0f147667923ce" title="Ask for a string input to the user." alt="" coords="884,185,1075,227"/>
+<area shape="rect" id="node9" href="$classScreenHardware.html#a1ec558773d81663e69212398fbc6a066" title="Delete a Alarm Window object." alt="" coords="577,5,794,47"/>
+<area shape="rect" id="node12" href="$classScreenHardware.html#ae5d2ae56d576f3aef512f2ef0402124f" title="Display all Alarms window." alt="" coords="570,423,801,464"/>
+<area shape="rect" id="node16" href="$classScreenHardware.html#ab1fc9cc20fb80dfe6fd1293f50ebd034" title="Display the error window." alt="" coords="578,305,793,347"/>
+<area shape="rect" id="node18" href="$classScreenHardware.html#a0b6267a91e8c459d98adb9c406a3d493" title="Exit the window." alt="" coords="872,371,1087,398"/>
+<area shape="rect" id="node20" href="$classScreenHardware.html#a0b5ab699148ef2c5215e2ee47e695e72" title="Display all Sensors window." alt="" coords="568,611,803,652"/>
+<area shape="rect" id="node22" href="$classScreenHardware.html#a8786bcdcb5465fcf34b1e6dc3c16d449" title="Display all Users window." alt="" coords="575,676,796,717"/>
+<area shape="rect" id="node28" href="$classMonitoringSystem.html#ac68e987a2e231ea1ff2e3e3950caf767" title="This method asks the user for an int input." alt="" coords="574,742,797,769"/>
+<area shape="rect" id="node29" href="$classScreenHardware.html#aeccf9ac678246eba7721ed1c6b839a75" title="This method displays the main window of the system for the admin." alt="" coords="574,793,797,835"/>
+<area shape="rect" id="node31" href="$classUsersServer.html#a314dcb58231af84a4d3f40aa58ceda66" title="Create a User object." alt="" coords="595,859,775,886"/>
+<area shape="rect" id="node32" href="$classMonitoringSystem.html#adf36d0956870ce3eb0789fee62116f21" title="This method shows the message to create a new user." alt="" coords="590,911,781,952"/>
+<area shape="rect" id="node33" href="$classMonitoringSystem.html#a9675bb382a6211a1e72573fdbe219ab0" title="Get the Email Selected User object." alt="" coords="582,976,789,1017"/>
+<area shape="rect" id="node34" href="$classMonitoringSystem.html#a08f0cdd13ff0e3064efa4d76de498087" title="Get the Name Selected User object." alt="" coords="581,1107,790,1148"/>
+<area shape="rect" id="node35" href="$classMonitoringSystem.html#a7ec712b369369bc18a1f4b39501876c3" title="Get the NIF Selected User object." alt="" coords="547,1173,824,1199"/>
+<area shape="rect" id="node36" href="$classMonitoringSystem.html#a0692f64404417b8300b134572fe07470" title="Get the Password Selected User object." alt="" coords="570,1224,801,1265"/>
+<area shape="rect" id="node37" href="$classMonitoringSystem.html#a7f637f3c6c73c1eefabe167a6f956670" title="Get the Privileges Selected User object." alt="" coords="568,1041,803,1083"/>
+<area shape="rect" id="node39" href="$classUsersServer.html#a192f5a7d0ef25994bd161b8029f935ca" title="Delete a User object." alt="" coords="595,1341,775,1367"/>
+<area shape="rect" id="node40" href="$classMonitoringSystem.html#a0d1bd6d0bd300ec9e0ccd8e79ab491ed" title="This method shows the message to delete a user." alt="" coords="590,1392,781,1433"/>
+<area shape="rect" id="node41" href="$classGreenHouse.html#a28f5dbd503c2f731ce4dadb9646f443c" title="Manage search user." alt="" coords="594,1290,777,1317"/>
+</map>

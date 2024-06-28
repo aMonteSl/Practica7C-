@@ -1,0 +1,915 @@
+\hypertarget{classGreenHouse}{}\doxysection{Green\+House Class Reference}
+\label{classGreenHouse}\index{GreenHouse@{GreenHouse}}
+
+
+{\ttfamily \#include $<$Green\+House.\+h$>$}
+
+
+
+Collaboration diagram for Green\+House\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGreenHouse_a6d6fd401e4b3e0882c1ecd3386509806}{Green\+House}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Green House object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGreenHouse_a8d9c18a6f3d9a5dfb8d0c8c710de5c76}{$\sim$\+Green\+House}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Green House object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_ae538f73ea4c62f70e980b7bc99be061a}{start\+System}} ()
+\begin{DoxyCompactList}\small\item\em Start the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_ae4b034eed62c1ef18fbac1559f0e21e1}{main\+System}} ()
+\begin{DoxyCompactList}\small\item\em Main system, after the system is started, you call this method to manage the system with your options that contains your privilege. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classGreenHouse_a5df12cb7812882c8d0102229bbadce33}{save}} ()
+\begin{DoxyCompactList}\small\item\em Load the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}} ()
+\begin{DoxyCompactList}\small\item\em Save the system. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b}{manage\+Login}} ()
+\begin{DoxyCompactList}\small\item\em Manage the login. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_ace913cf34c4663d7a12031874ed282cc}{manage\+Admin}} ()
+\begin{DoxyCompactList}\small\item\em Manage the admin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60}{manage\+Employee}} ()
+\begin{DoxyCompactList}\small\item\em Manage the employee. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_a146566af38aa51815d885d61f1c53df6}{manage\+Guest}} ()
+\begin{DoxyCompactList}\small\item\em Manage the guest. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32}{manage\+Update\+User}} ()
+\begin{DoxyCompactList}\small\item\em Manage the update user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_a64682596d40e083a328bc02f091994d9}{manage\+Create\+User}} ()
+\begin{DoxyCompactList}\small\item\em Manage the create user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGreenHouse_aab417a3db3791c88954382bd91644196}{manage\+Delete\+User}} ()
+\begin{DoxyCompactList}\small\item\em Manage the delete user. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c}{search\+User}} (std\+::string name, std\+::string password, std\+::string nif)
+\begin{DoxyCompactList}\small\item\em Manage search user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAlarmSensors}{Alarm\+Sensors}} $\ast$ \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the \mbox{\hyperlink{classAlarmSensors}{Alarm\+Sensors}} object (set of pointers to sensors). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMonitoringSystem}{Monitoring\+System}} $\ast$ \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the \mbox{\hyperlink{classMonitoringSystem}{Monitoring\+System}} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classUsersServer}{Users\+Server}} $\ast$ \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\+\_\+}}
+\begin{DoxyCompactList}\small\item\em This attribute is the \mbox{\hyperlink{classUsersServer}{Users\+Server}} object (set of pointers to users). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 16 of file Green\+House.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGreenHouse_a6d6fd401e4b3e0882c1ecd3386509806}\label{classGreenHouse_a6d6fd401e4b3e0882c1ecd3386509806}} 
+\index{GreenHouse@{GreenHouse}!GreenHouse@{GreenHouse}}
+\index{GreenHouse@{GreenHouse}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{GreenHouse()}{GreenHouse()}}
+{\footnotesize\ttfamily Green\+House\+::\+Green\+House (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new Green House object. 
+
+
+
+Definition at line 16 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{17     : \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}(\textcolor{keyword}{new} \mbox{\hyperlink{classAlarmSensors}{AlarmSensors}}()),}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}(\textcolor{keyword}{new} \mbox{\hyperlink{classMonitoringSystem}{MonitoringSystem}}(\textcolor{keyword}{new} \mbox{\hyperlink{classScreenHardware}{ScreenHardware}}(\textcolor{keyword}{true}),}
+\DoxyCodeLine{20                                \textcolor{keyword}{new} \mbox{\hyperlink{classKeyboardHardware}{KeyboardHardware}}(\textcolor{keyword}{true}),}
+\DoxyCodeLine{21                                \textcolor{keyword}{new} \mbox{\hyperlink{classSwitchHardware}{SwitchHardware}}(\textcolor{keyword}{true}))),}
+\DoxyCodeLine{22       \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}(\textcolor{keyword}{new} \mbox{\hyperlink{classUsersServer}{UsersServer}}()) \{}
+\DoxyCodeLine{23   \textcolor{comment}{// Constructor ahora inicializa todos los atributos privados correctamente.}}
+\DoxyCodeLine{24 \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classGreenHouse_a8d9c18a6f3d9a5dfb8d0c8c710de5c76}\label{classGreenHouse_a8d9c18a6f3d9a5dfb8d0c8c710de5c76}} 
+\index{GreenHouse@{GreenHouse}!````~GreenHouse@{$\sim$GreenHouse}}
+\index{````~GreenHouse@{$\sim$GreenHouse}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{$\sim$GreenHouse()}{~GreenHouse()}}
+{\footnotesize\ttfamily Green\+House\+::$\sim$\+Green\+House (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Green House object. 
+
+
+
+Definition at line 26 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{26                         \{}
+\DoxyCodeLine{27   \textcolor{comment}{// Destructor ahora elimina todos los atributos privados correctamente.}}
+\DoxyCodeLine{28   \textcolor{keyword}{delete} \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}};}
+\DoxyCodeLine{29   \textcolor{keyword}{delete} \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}};}
+\DoxyCodeLine{30   \textcolor{keyword}{delete} \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}};}
+\DoxyCodeLine{31 \}}
+
+\end{DoxyCode}
+
+
+References alarm\+\_\+, ms\+\_\+, and us\+\_\+.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGreenHouse_ae4b034eed62c1ef18fbac1559f0e21e1}\label{classGreenHouse_ae4b034eed62c1ef18fbac1559f0e21e1}} 
+\index{GreenHouse@{GreenHouse}!mainSystem@{mainSystem}}
+\index{mainSystem@{mainSystem}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{mainSystem()}{mainSystem()}}
+{\footnotesize\ttfamily void Green\+House\+::main\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main system, after the system is started, you call this method to manage the system with your options that contains your privilege. 
+
+
+
+Definition at line 251 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{251                             \{}
+\DoxyCodeLine{252   \textcolor{comment}{// SI la seleccion en startSystem() es 1, entonces se ejecuta el loginScreen()}}
+\DoxyCodeLine{253   \textcolor{comment}{// Hacemos mejor un switch para que sea más fácil de leer}}
+\DoxyCodeLine{254   \textcolor{keywordflow}{switch} (\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}()) \{}
+\DoxyCodeLine{255   \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{256     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a4abdaf1876463edb964e36006c54b479}{loginScreen}}();}
+\DoxyCodeLine{257     \mbox{\hyperlink{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b}{manageLogin}}();}
+\DoxyCodeLine{258     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{259   \textcolor{keywordflow}{case} 2:}
+\DoxyCodeLine{260     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{261     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{262   \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{263     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}{displayErrorScreen}}();}
+\DoxyCodeLine{264     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{265   \}}
+\DoxyCodeLine{266   \textcolor{comment}{/* if (ms\_-\/>getSelection() == 1)}}
+\DoxyCodeLine{267 \textcolor{comment}{  \{}}
+\DoxyCodeLine{268 \textcolor{comment}{      us\_-\/>loadUsersFromFile();}}
+\DoxyCodeLine{269 \textcolor{comment}{      ms\_-\/>loginScreen();}}
+\DoxyCodeLine{270 \textcolor{comment}{}}
+\DoxyCodeLine{271 \textcolor{comment}{  \} else if (ms\_-\/>getSelection() == 2)}}
+\DoxyCodeLine{272 \textcolor{comment}{  \{}}
+\DoxyCodeLine{273 \textcolor{comment}{      ms\_-\/>exitScreen();}}
+\DoxyCodeLine{274 \textcolor{comment}{  \} else \{}}
+\DoxyCodeLine{275 \textcolor{comment}{      ms\_-\/>displayErrorScreen();}}
+\DoxyCodeLine{276 \textcolor{comment}{  \}}}
+\DoxyCodeLine{277 \textcolor{comment}{  */}}
+\DoxyCodeLine{278 \}}
+
+\end{DoxyCode}
+
+
+References Monitoring\+System\+::display\+Error\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::get\+Selection(), Monitoring\+System\+::login\+Screen(), manage\+Login(), and ms\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ae4b034eed62c1ef18fbac1559f0e21e1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classGreenHouse_ae4b034eed62c1ef18fbac1559f0e21e1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_ace913cf34c4663d7a12031874ed282cc}\label{classGreenHouse_ace913cf34c4663d7a12031874ed282cc}} 
+\index{GreenHouse@{GreenHouse}!manageAdmin@{manageAdmin}}
+\index{manageAdmin@{manageAdmin}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageAdmin()}{manageAdmin()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Admin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the admin. 
+
+
+
+Definition at line 81 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{81                              \{}
+\DoxyCodeLine{82   \textcolor{keywordtype}{bool} exit = \textcolor{keyword}{false};}
+\DoxyCodeLine{83   \textcolor{comment}{// Mostramos la ventana de admin}}
+\DoxyCodeLine{84   \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{85     \textcolor{comment}{// Poner unos sefgundos de espera para que se vea el mensaje}}
+\DoxyCodeLine{86     \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{87     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a3288619b3d16cf1ae901d86bee832398}{mainWindowAdmin}}();}
+\DoxyCodeLine{88     \textcolor{keywordflow}{switch} (\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}()) \{}
+\DoxyCodeLine{89     \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{90       \mbox{\hyperlink{classGreenHouse_a64682596d40e083a328bc02f091994d9}{manageCreateUser}}();}
+\DoxyCodeLine{91       \textcolor{comment}{// us\_-\/>saveUsersToFile();}}
+\DoxyCodeLine{92       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{93     \textcolor{keywordflow}{case} 2:}
+\DoxyCodeLine{94       \mbox{\hyperlink{classGreenHouse_aab417a3db3791c88954382bd91644196}{manageDeleteUser}}();}
+\DoxyCodeLine{95       \textcolor{comment}{// us\_-\/>saveUsersToFile();}}
+\DoxyCodeLine{96       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{97     \textcolor{keywordflow}{case} 3:}
+\DoxyCodeLine{98       \mbox{\hyperlink{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32}{manageUpdateUser}}();}
+\DoxyCodeLine{99       \textcolor{comment}{// us\_-\/>saveUsersToFile();}}
+\DoxyCodeLine{100       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{101     \textcolor{keywordflow}{case} 4:}
+\DoxyCodeLine{102       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aff79411cc2b839659fbf77281a9c80ac}{displayUsersScreen}}();}
+\DoxyCodeLine{103       \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_aa23ec5bd6c0b49cabb05e8d6e60f552a}{printUsersServer}}();}
+\DoxyCodeLine{104       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{105     \textcolor{keywordflow}{case} 5:}
+\DoxyCodeLine{106       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a}{createAlarmScreen}}();}
+\DoxyCodeLine{107       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}{addSensor}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764}{getIdAlarm}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd}{getTypeAlarm}}());}
+\DoxyCodeLine{108       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{109     \textcolor{keywordflow}{case} 6:}
+\DoxyCodeLine{110       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109}{deleteAlarmScreen}}();}
+\DoxyCodeLine{111       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc}{deleteSensor}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6}{getIdSelectedAlarm}}());}
+\DoxyCodeLine{112       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{113     \textcolor{keywordflow}{case} 7:}
+\DoxyCodeLine{114       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}{displaySensorsScreen}}();}
+\DoxyCodeLine{115       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{displayAllSensorsData}}();}
+\DoxyCodeLine{116       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{117     \textcolor{keywordflow}{case} 8:}
+\DoxyCodeLine{118       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}{displayAlarmsScreen}}();}
+\DoxyCodeLine{119       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{120       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{121     \textcolor{keywordflow}{case} 9:}
+\DoxyCodeLine{122       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}{turnOnOffSystemScreen}}();}
+\DoxyCodeLine{123       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}{turnOnOffSystem}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}());}
+\DoxyCodeLine{124       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{125     \textcolor{keywordflow}{case} 10:}
+\DoxyCodeLine{126       \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}{saveUsersToFile}}();}
+\DoxyCodeLine{127       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{128     \textcolor{keywordflow}{case} 11:}
+\DoxyCodeLine{129       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{saveAlarmScreen}}();}
+\DoxyCodeLine{130       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{131       \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{132       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{133     \textcolor{keywordflow}{case} 12:}
+\DoxyCodeLine{134       \mbox{\hyperlink{classGreenHouse_a5df12cb7812882c8d0102229bbadce33}{save}}();}
+\DoxyCodeLine{135       \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{136       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{137       exit = \textcolor{keyword}{true};}
+\DoxyCodeLine{138       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{139     \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{140       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}{displayErrorScreen}}();}
+\DoxyCodeLine{141       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{142     \}}
+\DoxyCodeLine{143   \} \textcolor{keywordflow}{while} (!exit);}
+\DoxyCodeLine{144 \}}
+
+\end{DoxyCode}
+
+
+References Alarm\+Sensors\+::add\+Sensor(), alarm\+\_\+, Monitoring\+System\+::create\+Alarm\+Screen(), Monitoring\+System\+::delete\+Alarm\+Screen(), Alarm\+Sensors\+::delete\+Sensor(), Monitoring\+System\+::display\+Alarms\+Screen(), Alarm\+Sensors\+::display\+Alarm\+Status(), Alarm\+Sensors\+::display\+All\+Sensors\+Data(), Monitoring\+System\+::display\+Error\+Screen(), Monitoring\+System\+::display\+Sensors\+Screen(), Monitoring\+System\+::display\+Users\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::get\+Id\+Alarm(), Monitoring\+System\+::get\+Id\+Selected\+Alarm(), Monitoring\+System\+::get\+Selection(), Monitoring\+System\+::get\+Type\+Alarm(), Monitoring\+System\+::main\+Window\+Admin(), manage\+Create\+User(), manage\+Delete\+User(), manage\+Update\+User(), ms\+\_\+, Users\+Server\+::print\+Users\+Server(), save(), Monitoring\+System\+::save\+Alarm\+Screen(), Alarm\+Sensors\+::save\+Sensors\+Data(), Users\+Server\+::save\+Users\+To\+File(), sleep(), Alarm\+Sensors\+::turn\+On\+Off\+System(), Monitoring\+System\+::turn\+On\+Off\+System\+Screen(), and us\+\_\+.
+
+
+
+Referenced by manage\+Login().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ace913cf34c4663d7a12031874ed282cc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ace913cf34c4663d7a12031874ed282cc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a64682596d40e083a328bc02f091994d9}\label{classGreenHouse_a64682596d40e083a328bc02f091994d9}} 
+\index{GreenHouse@{GreenHouse}!manageCreateUser@{manageCreateUser}}
+\index{manageCreateUser@{manageCreateUser}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageCreateUser()}{manageCreateUser()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Create\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the create user. 
+
+
+
+Definition at line 53 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                                   \{}
+\DoxyCodeLine{54   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_adf36d0956870ce3eb0789fee62116f21}{createUserScreen}}();}
+\DoxyCodeLine{55   \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a314dcb58231af84a4d3f40aa58ceda66}{createUser}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}{getNameSelectedUser}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{getNIFSelectedUser}}(),}
+\DoxyCodeLine{56                   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a0692f64404417b8300b134572fe07470}{getPasswordSelectedUser}}(),}
+\DoxyCodeLine{57                   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670}{getPrivilegesSelectedUser}}(),}
+\DoxyCodeLine{58                   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}{getEmailSelectedUser}}());}
+\DoxyCodeLine{59 \}}
+
+\end{DoxyCode}
+
+
+References Users\+Server\+::create\+User(), Monitoring\+System\+::create\+User\+Screen(), Monitoring\+System\+::get\+Email\+Selected\+User(), Monitoring\+System\+::get\+Name\+Selected\+User(), Monitoring\+System\+::get\+NIFSelected\+User(), Monitoring\+System\+::get\+Password\+Selected\+User(), Monitoring\+System\+::get\+Privileges\+Selected\+User(), ms\+\_\+, and us\+\_\+.
+
+
+
+Referenced by manage\+Admin().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a64682596d40e083a328bc02f091994d9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a64682596d40e083a328bc02f091994d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_aab417a3db3791c88954382bd91644196}\label{classGreenHouse_aab417a3db3791c88954382bd91644196}} 
+\index{GreenHouse@{GreenHouse}!manageDeleteUser@{manageDeleteUser}}
+\index{manageDeleteUser@{manageDeleteUser}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageDeleteUser()}{manageDeleteUser()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Delete\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the delete user. 
+
+
+
+Definition at line 43 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                   \{}
+\DoxyCodeLine{44   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a0d1bd6d0bd300ec9e0ccd8e79ab491ed}{deleteUserScreen}}();}
+\DoxyCodeLine{45   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c}{searchUser}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}{getNameSelectedUser}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a0692f64404417b8300b134572fe07470}{getPasswordSelectedUser}}(),}
+\DoxyCodeLine{46                  \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{getNIFSelectedUser}}())) \{}
+\DoxyCodeLine{47     \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a192f5a7d0ef25994bd161b8029f935ca}{deleteUser}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{getNIFSelectedUser}}());}
+\DoxyCodeLine{48   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{49     printf(\textcolor{stringliteral}{"{}Usuario no encontrado\(\backslash\)n"{}});}
+\DoxyCodeLine{50   \}}
+\DoxyCodeLine{51 \}}
+
+\end{DoxyCode}
+
+
+References Users\+Server\+::delete\+User(), Monitoring\+System\+::delete\+User\+Screen(), Monitoring\+System\+::get\+Name\+Selected\+User(), Monitoring\+System\+::get\+NIFSelected\+User(), Monitoring\+System\+::get\+Password\+Selected\+User(), ms\+\_\+, search\+User(), and us\+\_\+.
+
+
+
+Referenced by manage\+Admin().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_aab417a3db3791c88954382bd91644196_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_aab417a3db3791c88954382bd91644196_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60}\label{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60}} 
+\index{GreenHouse@{GreenHouse}!manageEmployee@{manageEmployee}}
+\index{manageEmployee@{manageEmployee}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageEmployee()}{manageEmployee()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the employee. 
+
+
+
+Definition at line 146 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{146                                 \{}
+\DoxyCodeLine{147   \textcolor{keywordtype}{bool} exit = \textcolor{keyword}{false};}
+\DoxyCodeLine{148   \textcolor{comment}{// Mostramos la ventana de employee}}
+\DoxyCodeLine{149   \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{150     \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{151     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a982281f93905645ed1c510fedf8dcc51}{mainWindowEmployee}}();}
+\DoxyCodeLine{152     \textcolor{keywordflow}{switch} (\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}()) \{}
+\DoxyCodeLine{153     \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{154       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a616050f732fdaf71ba9b5ab5372d630a}{createAlarmScreen}}();}
+\DoxyCodeLine{155       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a1497086628b3bb30d60f2987eca8fe7f}{addSensor}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a1ec19661cb6383341518a15afb53e764}{getIdAlarm}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a1d98be1cb48544ca7c9ae3038b55f1bd}{getTypeAlarm}}());}
+\DoxyCodeLine{156       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{157     \textcolor{keywordflow}{case} 2:}
+\DoxyCodeLine{158       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_ab99a47d5efa46cbe3386bb07bfabc109}{deleteAlarmScreen}}();}
+\DoxyCodeLine{159       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a67e891efa5f14c93ba7e205081d675fc}{deleteSensor}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_acb6f10a470beff7fdfdedf0305c123d6}{getIdSelectedAlarm}}());}
+\DoxyCodeLine{160       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{161     \textcolor{keywordflow}{case} 3:}
+\DoxyCodeLine{162       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}{displaySensorsScreen}}();}
+\DoxyCodeLine{163       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{displayAllSensorsData}}();}
+\DoxyCodeLine{164       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{165     \textcolor{keywordflow}{case} 4:}
+\DoxyCodeLine{166       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}{displayAlarmsScreen}}();}
+\DoxyCodeLine{167       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{168       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{169     \textcolor{keywordflow}{case} 5:}
+\DoxyCodeLine{170       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa710bcc81ffd855276d6fb73c04fcb9f}{turnOnOffSystemScreen}}();}
+\DoxyCodeLine{171       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a45ac4465f0170fad4f498ee3f51258de}{turnOnOffSystem}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}());}
+\DoxyCodeLine{172       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{173     \textcolor{keywordflow}{case} 6:}
+\DoxyCodeLine{174       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{saveAlarmScreen}}();}
+\DoxyCodeLine{175       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{176       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{177     \textcolor{keywordflow}{case} 7:}
+\DoxyCodeLine{178       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{179       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{saveAlarmScreen}}();}
+\DoxyCodeLine{180       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{181       exit = \textcolor{keyword}{true};}
+\DoxyCodeLine{182       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{183     \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{184       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}{displayErrorScreen}}();}
+\DoxyCodeLine{185       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{186     \}}
+\DoxyCodeLine{187   \} \textcolor{keywordflow}{while} (!exit);}
+\DoxyCodeLine{188 \}}
+
+\end{DoxyCode}
+
+
+References Alarm\+Sensors\+::add\+Sensor(), alarm\+\_\+, Monitoring\+System\+::create\+Alarm\+Screen(), Monitoring\+System\+::delete\+Alarm\+Screen(), Alarm\+Sensors\+::delete\+Sensor(), Monitoring\+System\+::display\+Alarms\+Screen(), Alarm\+Sensors\+::display\+Alarm\+Status(), Alarm\+Sensors\+::display\+All\+Sensors\+Data(), Monitoring\+System\+::display\+Error\+Screen(), Monitoring\+System\+::display\+Sensors\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::get\+Id\+Alarm(), Monitoring\+System\+::get\+Id\+Selected\+Alarm(), Monitoring\+System\+::get\+Selection(), Monitoring\+System\+::get\+Type\+Alarm(), Monitoring\+System\+::main\+Window\+Employee(), ms\+\_\+, Monitoring\+System\+::save\+Alarm\+Screen(), Alarm\+Sensors\+::save\+Sensors\+Data(), sleep(), Alarm\+Sensors\+::turn\+On\+Off\+System(), and Monitoring\+System\+::turn\+On\+Off\+System\+Screen().
+
+
+
+Referenced by manage\+Login().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a146566af38aa51815d885d61f1c53df6}\label{classGreenHouse_a146566af38aa51815d885d61f1c53df6}} 
+\index{GreenHouse@{GreenHouse}!manageGuest@{manageGuest}}
+\index{manageGuest@{manageGuest}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageGuest()}{manageGuest()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the guest. 
+
+
+
+Definition at line 190 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{190                              \{}
+\DoxyCodeLine{191   \textcolor{keywordtype}{bool} exit = \textcolor{keyword}{false};}
+\DoxyCodeLine{192   \textcolor{comment}{// Mostramos la ventana de guest}}
+\DoxyCodeLine{193   \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{194     \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{195     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_acf2c408f4e2487e6602543adf5a996a1}{mainWindowGuest}}();}
+\DoxyCodeLine{196     \textcolor{keywordflow}{switch} (\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a508751e3f490b9942202e17664ea9893}{getSelection}}()) \{}
+\DoxyCodeLine{197     \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{198       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa83416a623e4ad81d4554f8c5ac2c2d4}{displaySensorsScreen}}();}
+\DoxyCodeLine{199       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a6b7509cfc7b77ab9943f1fa6052f56da}{displayAllSensorsData}}();}
+\DoxyCodeLine{200       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{201     \textcolor{keywordflow}{case} 2:}
+\DoxyCodeLine{202       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ed15cd1c877014b91d1572ec056d866}{displayAlarmsScreen}}();}
+\DoxyCodeLine{203       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a185412bdad879f251eea84eefc95fde3}{displayAlarmStatus}}();}
+\DoxyCodeLine{204       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{205     \textcolor{keywordflow}{case} 3:}
+\DoxyCodeLine{206       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{saveAlarmScreen}}();}
+\DoxyCodeLine{207       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{208       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{209     \textcolor{keywordflow}{case} 4:}
+\DoxyCodeLine{210       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{211       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a006d4ed3b290747ccc10079fa96eabea}{saveAlarmScreen}}();}
+\DoxyCodeLine{212       \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{213       exit = \textcolor{keyword}{true};}
+\DoxyCodeLine{214       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{215     \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{216       \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a5a835975fa74862f8a79449a35442916}{displayErrorScreen}}();}
+\DoxyCodeLine{217       \textcolor{keywordflow}{break};}
+\DoxyCodeLine{218     \}}
+\DoxyCodeLine{219   \} \textcolor{keywordflow}{while} (!exit);}
+\DoxyCodeLine{220 \}}
+
+\end{DoxyCode}
+
+
+References alarm\+\_\+, Monitoring\+System\+::display\+Alarms\+Screen(), Alarm\+Sensors\+::display\+Alarm\+Status(), Alarm\+Sensors\+::display\+All\+Sensors\+Data(), Monitoring\+System\+::display\+Error\+Screen(), Monitoring\+System\+::display\+Sensors\+Screen(), Monitoring\+System\+::exit\+Screen(), Monitoring\+System\+::get\+Selection(), Monitoring\+System\+::main\+Window\+Guest(), ms\+\_\+, Monitoring\+System\+::save\+Alarm\+Screen(), Alarm\+Sensors\+::save\+Sensors\+Data(), and sleep().
+
+
+
+Referenced by manage\+Login().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a146566af38aa51815d885d61f1c53df6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a146566af38aa51815d885d61f1c53df6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b}\label{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b}} 
+\index{GreenHouse@{GreenHouse}!manageLogin@{manageLogin}}
+\index{manageLogin@{manageLogin}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageLogin()}{manageLogin()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Login (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the login. 
+
+
+
+Definition at line 222 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{222                              \{}
+\DoxyCodeLine{223 }
+\DoxyCodeLine{224   \textcolor{comment}{// Cargamos los usuarios del archivo}}
+\DoxyCodeLine{225   \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a0cab706bb303ffa44ea46f234e95993f}{loadUsersFromFile}}();}
+\DoxyCodeLine{226   \textcolor{comment}{// Cargamos los sensores del archivo}}
+\DoxyCodeLine{227   \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_a2eee7dba81bb31084f94ec156f989055}{loadSensorsData}}();}
+\DoxyCodeLine{228   \textcolor{comment}{// Comprobamos si el usuario y la contraseña son correctos}}
+\DoxyCodeLine{229   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}{findUserLogin}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a29bccb3aade3d9db92a152058d0fea0d}{getName}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_af4340bc457707e547d4c07e1345de24c}{getPassword}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}{getNIF}}())) \{}
+\DoxyCodeLine{230     printf(\textcolor{stringliteral}{"{}Usuario correcto\(\backslash\)n"{}});}
+\DoxyCodeLine{231     \textcolor{comment}{// ahora tengo qeu ver que tipo de usuario es}}
+\DoxyCodeLine{232     \textcolor{comment}{// si es admin, employee o guest}}
+\DoxyCodeLine{233     \textcolor{comment}{// si es admin}}
+\DoxyCodeLine{234     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}{getPrivileges}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}{getNIF}}()) == \textcolor{stringliteral}{"{}ADMIN"{}}) \{}
+\DoxyCodeLine{235       \mbox{\hyperlink{classGreenHouse_ace913cf34c4663d7a12031874ed282cc}{manageAdmin}}();}
+\DoxyCodeLine{236 }
+\DoxyCodeLine{237     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a8a29fac8d978a4f0f4b687640b210be7}{getPrivileges}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_ada24dcde157b829a5fc87d28c1b6a8b7}{getNIF}}()) == \textcolor{stringliteral}{"{}EMPLOYEE"{}}) \{}
+\DoxyCodeLine{238       \mbox{\hyperlink{classGreenHouse_a1e1d25cd3438c7c5f56eec1bb4b33d60}{manageEmployee}}();}
+\DoxyCodeLine{239 }
+\DoxyCodeLine{240     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{241       \mbox{\hyperlink{classGreenHouse_a146566af38aa51815d885d61f1c53df6}{manageGuest}}();}
+\DoxyCodeLine{242     \}}
+\DoxyCodeLine{243 }
+\DoxyCodeLine{244   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{245     printf(\textcolor{stringliteral}{"{}Usuario incorrecto\(\backslash\)n"{}});}
+\DoxyCodeLine{246     \mbox{\hyperlink{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}{sleep}}();}
+\DoxyCodeLine{247     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_aa68121a3c71f4600182ac143a06c3cbe}{exitScreen}}();}
+\DoxyCodeLine{248   \}}
+\DoxyCodeLine{249 \}}
+
+\end{DoxyCode}
+
+
+References alarm\+\_\+, Monitoring\+System\+::exit\+Screen(), Users\+Server\+::find\+User\+Login(), Monitoring\+System\+::get\+Name(), Monitoring\+System\+::get\+NIF(), Monitoring\+System\+::get\+Password(), Users\+Server\+::get\+Privileges(), Alarm\+Sensors\+::load\+Sensors\+Data(), Users\+Server\+::load\+Users\+From\+File(), manage\+Admin(), manage\+Employee(), manage\+Guest(), ms\+\_\+, sleep(), and us\+\_\+.
+
+
+
+Referenced by main\+System().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_abbb9d2c2a94f06899e17d772fc1ee19b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32}\label{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32}} 
+\index{GreenHouse@{GreenHouse}!manageUpdateUser@{manageUpdateUser}}
+\index{manageUpdateUser@{manageUpdateUser}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{manageUpdateUser()}{manageUpdateUser()}}
+{\footnotesize\ttfamily void Green\+House\+::manage\+Update\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage the update user. 
+
+
+
+Definition at line 61 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{61                                   \{}
+\DoxyCodeLine{62   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a4fa946aa944f0c38e3e60931d16c0fe3}{updateUserScreen}}();}
+\DoxyCodeLine{63   \textcolor{keywordflow}{if} (\mbox{\hyperlink{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c}{searchUser}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a08f0cdd13ff0e3064efa4d76de498087}{getNameSelectedUser}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a0692f64404417b8300b134572fe07470}{getPasswordSelectedUser}}(),}
+\DoxyCodeLine{64                  \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{getNIFSelectedUser}}())) \{}
+\DoxyCodeLine{65     \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a3500268cb464053ac588a0f4534ac36c}{updateUser}}(\mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}{getEmailSelectedUser}}(), \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7ec712b369369bc18a1f4b39501876c3}{getNIFSelectedUser}}(),}
+\DoxyCodeLine{66                     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a0692f64404417b8300b134572fe07470}{getPasswordSelectedUser}}(),}
+\DoxyCodeLine{67                     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a7f637f3c6c73c1eefabe167a6f956670}{getPrivilegesSelectedUser}}(),}
+\DoxyCodeLine{68                     \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a9675bb382a6211a1e72573fdbe219ab0}{getEmailSelectedUser}}());}
+\DoxyCodeLine{69   \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{70     printf(\textcolor{stringliteral}{"{}Usuario no encontrado\(\backslash\)n"{}});}
+\DoxyCodeLine{71   \}}
+\DoxyCodeLine{72 \}}
+
+\end{DoxyCode}
+
+
+References Monitoring\+System\+::get\+Email\+Selected\+User(), Monitoring\+System\+::get\+Name\+Selected\+User(), Monitoring\+System\+::get\+NIFSelected\+User(), Monitoring\+System\+::get\+Password\+Selected\+User(), Monitoring\+System\+::get\+Privileges\+Selected\+User(), ms\+\_\+, search\+User(), Users\+Server\+::update\+User(), Monitoring\+System\+::update\+User\+Screen(), and us\+\_\+.
+
+
+
+Referenced by manage\+Admin().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ae1e6db8f518501ebb007f508780b8c32_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a5df12cb7812882c8d0102229bbadce33}\label{classGreenHouse_a5df12cb7812882c8d0102229bbadce33}} 
+\index{GreenHouse@{GreenHouse}!save@{save}}
+\index{save@{save}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Green\+House\+::save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Load the system. 
+
+
+
+Definition at line 76 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76                       \{}
+\DoxyCodeLine{77   \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a09ff022e97cf02e1737dc735b43364fe}{saveUsersToFile}}();}
+\DoxyCodeLine{78   \mbox{\hyperlink{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}{alarm\_}}-\/>\mbox{\hyperlink{classAlarmSensors_af51225da8d29225aaaaa65b162870242}{saveSensorsData}}();}
+\DoxyCodeLine{79 \}}
+
+\end{DoxyCode}
+
+
+References alarm\+\_\+, Alarm\+Sensors\+::save\+Sensors\+Data(), Users\+Server\+::save\+Users\+To\+File(), and us\+\_\+.
+
+
+
+Referenced by manage\+Admin().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a5df12cb7812882c8d0102229bbadce33_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a5df12cb7812882c8d0102229bbadce33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c}\label{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c}} 
+\index{GreenHouse@{GreenHouse}!searchUser@{searchUser}}
+\index{searchUser@{searchUser}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{searchUser()}{searchUser()}}
+{\footnotesize\ttfamily bool Green\+House\+::search\+User (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string}]{password,  }\item[{std\+::string}]{nif }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Manage search user. 
+
+
+
+Definition at line 38 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39                                            \{}
+\DoxyCodeLine{40   \textcolor{keywordflow}{return} \mbox{\hyperlink{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}{us\_}}-\/>\mbox{\hyperlink{classUsersServer_a113e388eb93cf9aa9dd585d87e3a557b}{findUserLogin}}(name, password, nif);}
+\DoxyCodeLine{41 \}}
+
+\end{DoxyCode}
+
+
+References Users\+Server\+::find\+User\+Login(), and us\+\_\+.
+
+
+
+Referenced by manage\+Delete\+User(), and manage\+Update\+User().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a28f5dbd503c2f731ce4dadb9646f443c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}\label{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e}} 
+\index{GreenHouse@{GreenHouse}!sleep@{sleep}}
+\index{sleep@{sleep}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{sleep()}{sleep()}}
+{\footnotesize\ttfamily void Green\+House\+::sleep (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Save the system. 
+
+
+
+Definition at line 74 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{74 \{ system(\textcolor{stringliteral}{"{}sleep 5"{}}); \}}
+
+\end{DoxyCode}
+
+
+Referenced by manage\+Admin(), manage\+Employee(), manage\+Guest(), and manage\+Login().
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_a2b0cf6d2bb8a13658754ab1e2d2ad10e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classGreenHouse_ae538f73ea4c62f70e980b7bc99be061a}\label{classGreenHouse_ae538f73ea4c62f70e980b7bc99be061a}} 
+\index{GreenHouse@{GreenHouse}!startSystem@{startSystem}}
+\index{startSystem@{startSystem}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{startSystem()}{startSystem()}}
+{\footnotesize\ttfamily void Green\+House\+::start\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Start the system. 
+
+
+
+Definition at line 33 of file Green\+House.\+cpp.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                              \{}
+\DoxyCodeLine{34   \textcolor{comment}{// Mensaje de bienvenida del invernadero}}
+\DoxyCodeLine{35   \mbox{\hyperlink{classGreenHouse_a3a51af5b5132bddd998baffa44361133}{ms\_}}-\/>\mbox{\hyperlink{classMonitoringSystem_a340c74f50e28880c3e52a515101d65db}{initialScreen}}();}
+\DoxyCodeLine{36 \}}
+
+\end{DoxyCode}
+
+
+References Monitoring\+System\+::initial\+Screen(), and ms\+\_\+.
+
+
+
+Referenced by main().
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGreenHouse_ae538f73ea4c62f70e980b7bc99be061a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classGreenHouse_ae538f73ea4c62f70e980b7bc99be061a_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}\label{classGreenHouse_a9dfe169e3db2be7adbb1e89814abf080}} 
+\index{GreenHouse@{GreenHouse}!alarm\_@{alarm\_}}
+\index{alarm\_@{alarm\_}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{alarm\_}{alarm\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classAlarmSensors}{Alarm\+Sensors}}$\ast$ Green\+House\+::alarm\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the \mbox{\hyperlink{classAlarmSensors}{Alarm\+Sensors}} object (set of pointers to sensors). 
+
+
+
+Definition at line 98 of file Green\+House.\+h.
+
+
+
+Referenced by manage\+Admin(), manage\+Employee(), manage\+Guest(), manage\+Login(), save(), and $\sim$\+Green\+House().
+
+\mbox{\Hypertarget{classGreenHouse_a3a51af5b5132bddd998baffa44361133}\label{classGreenHouse_a3a51af5b5132bddd998baffa44361133}} 
+\index{GreenHouse@{GreenHouse}!ms\_@{ms\_}}
+\index{ms\_@{ms\_}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{ms\_}{ms\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMonitoringSystem}{Monitoring\+System}}$\ast$ Green\+House\+::ms\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the \mbox{\hyperlink{classMonitoringSystem}{Monitoring\+System}} object. 
+
+
+
+Definition at line 104 of file Green\+House.\+h.
+
+
+
+Referenced by main\+System(), manage\+Admin(), manage\+Create\+User(), manage\+Delete\+User(), manage\+Employee(), manage\+Guest(), manage\+Login(), manage\+Update\+User(), start\+System(), and $\sim$\+Green\+House().
+
+\mbox{\Hypertarget{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}\label{classGreenHouse_a0a07665653bcacfee59d3244ebfcf16d}} 
+\index{GreenHouse@{GreenHouse}!us\_@{us\_}}
+\index{us\_@{us\_}!GreenHouse@{GreenHouse}}
+\doxysubsubsection{\texorpdfstring{us\_}{us\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classUsersServer}{Users\+Server}}$\ast$ Green\+House\+::us\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+This attribute is the \mbox{\hyperlink{classUsersServer}{Users\+Server}} object (set of pointers to users). 
+
+
+
+Definition at line 110 of file Green\+House.\+h.
+
+
+
+Referenced by manage\+Admin(), manage\+Create\+User(), manage\+Delete\+User(), manage\+Login(), manage\+Update\+User(), save(), search\+User(), and $\sim$\+Green\+House().
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{GreenHouse_8h}{Green\+House.\+h}}\item 
+src/\mbox{\hyperlink{GreenHouse_8cpp}{Green\+House.\+cpp}}\end{DoxyCompactItemize}

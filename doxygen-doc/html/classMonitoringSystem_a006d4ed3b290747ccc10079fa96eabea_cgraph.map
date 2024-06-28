@@ -1,0 +1,4 @@
+<map id="MonitoringSystem::saveAlarmScreen" name="MonitoringSystem::saveAlarmScreen">
+<area shape="rect" id="node1" title="This method shows the message to save an alarm." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$classScreenHardware.html#a41b5ac64d65de71058c055e41dc4850e" title="Save Alarm Window object." alt="" coords="272,5,479,47"/>
+</map>
